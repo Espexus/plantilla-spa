@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piel Durazno Spa</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- aquí tengo mi menú -->
+    <div class="menu">
+        <button class="boton-del-menu" id="boton-menu">☰</button>
+        <nav>
+             <!-- agrega un boton de estos de desplegar el menu tortuga copilot -->
+     
+             <ul class="lista-del-menu" id="lista-del-menu">
+                 <li class="item-del-menu"><a href="index.html">Inicio</a></li>
+                 <!-- a este planes vuelvelo una lista desplegable pero con details summary -->
+                  <!-- misma clase para otros li copilot -->
+                 <li class="item-del-menu">
+                     <details>
+                         <!-- si puedes hacer que el summary también tenga enlace mejor -->
+                         <summary><a href="planes.html" class="enlace-completo gris-negro">Planes</a></summary>
+                         <ul>
+                             <li><a href="plan1.html">Plan 1</a></li>
+                             <li><a href="plan2.html">Plan 2</a></li>
+                             <li><a href="plan_ninos.html">Plan 3</a></li>
+                         </ul>
+                     </details>
+                 </li>
+                 <!-- desplegable de dos para sedes -->
+                 <li class="item-del-menu">
+                     <details>
+                         <!-- para este también -->
+                         <summary><a href="sedes.html" class="enlace-completo gris-negro">Sedes</a></summary>
+                         <ul>
+                             <li><a href="sede_bucaramanga.html">Sede 1</a></li>
+                             <li><a href="sede_bogota.html">Sede 2</a></li>
+                         </ul>
+                     </details>
+                 </li>
+                 <li class="item-del-menu"><a href="promociones.html">Promociones</a></li>
+                 <!-- reservas -->
+                 <li class="item-del-menu"><a href="reservas.html">Reservas</a></li>
+                 <!-- contacto -->
+                 <li class="item-del-menu"><a href="contacto.html">Contacto</a></li>
+                 <!-- galeria -->
+                 <li class="item-del-menu"><a href="galeria.html">Galeria</a></li>
+             </ul>
+     
+        </nav>
+        <img src="img/logo_durazno_spa.png" alt="Logo Piel Durazno Spa" class="logo-del-menu">
+    </div>
+
+    <!-- boton para cerrar el menu -->
+    <button class="boton-cerrar oculto" id="cerrar-menu">X</button>
+
+    <section class="galeria-servicios">
+    <!-- aquí luego colocaré uno de los carruseles de fotos. -->
+    </section>
+
+    <!-- aqui termina mi encabezado de cosas -->
+    <section class="seccion-centrada seccion seccion-plan-pareja">
+        <h2 class="titulo-seccion blanco sombra-texto">
+            SPA EN PAREJA
+        </h2>
+        <p class="descripcion-seccion blanco">
+            <!-- haz una descripcion, mas corta -->
+            Disfruta de una experiencia única en nuestro spa para parejas, donde el amor y el bienestar se fusionan en un ambiente relajante y romántico.
+        </p>
+        <a href="planes.html" class="enlace-completo enlace-boton blanco fondo-amarillo">Reservar Ahora</a>
+    </section>
+
+    <!-- misma estructura de la seccion anterior ahora para una seccion de spa para niños, recuerda hacer una descripcion corta -->
+    <section class="seccion-centrada seccion seccion-ninos">
+        <h2 class="titulo-seccion blanco sombra-texto">
+            SPA PARA NIÑOS
+        </h2>
+        <p class="descripcion-seccion blanco">
+            Disfruta de una experiencia única en nuestro spa para niños, donde el juego y el bienestar se fusionan en un ambiente divertido y seguro.
+        </p>
+        <a href="plan_ninos.html" class="enlace-completo enlace-boton blanco fondo-amarillo">Reservar Ahora</a>
+    </section>
+
+    <!-- misma estructura para una seccion de ¿tu primera vez? obten un cupon de descuento -->
+    <section class="seccion-centrada seccion seccion-descuento">
+        <h2 class="titulo-seccion blanco sombra-texto">
+            ¿TU PRIMERA VEZ?
+        </h2>
+        <p class="descripcion-seccion blanco">
+            <!-- esta descripcion debe ser sobre el descuento de primera vez -->
+            Si es tu primera vez en nuestro spa, te damos la bienvenida con un descuento especial del 20% en tu primera visita. Queremos que disfrutes de una experiencia inolvidable y que te sientas como en casa desde el primer momento.
+        </p>
+        <a href="promociones.html" class="enlace-completo enlace-boton blanco fondo-amarillo">Obtener Cupón</a>
+    </section>
+
+    <!-- again ahora para una seccion que se llame CONOCE NUESTRA NUEVA SEDE EN BOGOTÁ  -->
+    <section class="seccion-centrada seccion seccion-sede">
+        <h2 class="titulo-seccion blanco sombra-texto">
+            CONOCE NUESTRA NUEVA SEDE EN BOGOTÁ
+        </h2>
+        <p class="descripcion-seccion blanco">
+            En Bogotá hemos abierto una nueva sede para ofrecerte nuestros servicios de spa en la capital. Ven y descubre un oasis de relajación en el corazón de la ciudad.
+        </p>
+        <a href="sede_bogota.html" class="enlace-completo enlace-boton blanco fondo-amarillo">Conocer Sede</a>
+    </section>
+
+    <!-- ahora acá una seccion ya independiente en estilo que sea un apartado para un video de youtube -->
+    <section class="seccion seccion-video">
+        <h2 class="titulo-seccion blanco">
+            NUESTRO VIDEO DE PRESENTACIÓN
+        </h2>
+        <div class="video-contenedor">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+
+
+    <!-- ahora para otro video este titulado, nuestro mejor plan -->
+    <section class="seccion seccion-video">
+        <h2 class="titulo-seccion blanco">
+            NUESTRO MEJOR PLAN
+        </h2>
+        <div class="video-contenedor">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="galeria-fotos"></section>
+
+    <!-- pon acá una sección de reseñas bastante completa con algunas solo de ejemplo, que tengan sus 5 estrellas, espacio para foto del usuario y reseña dada, 3 reseñas -->
+    <section class="seccion-centrada-horizontal seccion seccion-resenas">
+        <h2 class="titulo-seccion blanco">
+            RESEÑAS DE NUESTROS CLIENTES
+        </h2>
+        <div class="resena">
+            <img src="#" alt="Foto de Usuario" class="foto-usuario">
+            <div class="contenido-resena">
+                <p class="nombre-usuario">Juan Pérez</p>
+                <p class="texto-resena">¡Una experiencia increíble! El personal fue muy amable y los tratamientos fueron excepcionales. Definitivamente volveré.</p>
+                <div class="estrellas">
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                </div>
+            </div>
+        </div>
+        <div class="resena">
+            <img src="#" alt="Foto de Usuario" class="foto-usuario">
+            <div class="contenido-resena">
+                <p class="nombre-usuario">María Gómez</p>
+                <p class="texto-resena">Me encantó el ambiente relajante y los tratamientos personalizados. El spa para parejas fue perfecto para mi aniversario.</p>
+                <div class="estrellas">
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                </div>
+            </div>
+        </div>
+        <div class="resena">
+            <img src="#" alt="Foto de Usuario" class="foto-usuario">
+            <div class="contenido-resena">
+                <p class="nombre-usuario">Carlos Rodríguez</p>
+                <p class="texto-resena">Excelente servicio y tratamientos. Me sentí muy bien cuidado y relajado. Recomendaría este spa a mis amigos.</p>
+                <div class="estrellas">
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                    <span class="estrella">★</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ahora una seccion que se sincronice con el instagram de la empresa que no sé si eso es así realmente o se simula, solo hazlo en todo caso -->
+    <section class="seccion seccion-instagram">
+        <h2 class="titulo-seccion blanco">
+            NUESTRO INSTAGRAM
+        </h2>
+        <div class="instagram-contenedor">
+            <!-- aquí puedes simular las publicaciones de instagram con imágenes y enlaces -->
+            <a href="https://www.instagram.com/tu_cuenta_de_instagram" target="_blank">
+                <img src="img/instagram1.jpg" alt="Publicación de Instagram" class="publicacion-instagram">
+            </a>
+            <a href="https://www.instagram.com/tu_cuenta_de_instagram" target="_blank">
+                <img src="img/instagram2.jpg" alt="Publicación de Instagram" class="publicacion-instagram">
+            </a>
+            <a href="https://www.instagram.com/tu_cuenta_de_instagram" target="_blank">
+                <img src="img/instagram3.jpg" alt="Publicación de Instagram" class="publicacion-instagram">
+            </a>
+        </div>
+        <button class="boton-azul blanco">Siguenos en Instagram</button>
+    </section>
+
+    <footer>
+        <div class="seccion-footer">
+            <h3 class="upper amarillo-palido">
+                CONTACTANOS
+            </h3>
+            <p class="blanco upper">
+                <span class="amarillo-palido">Teléfono:</span>
+                <!-- enlace que lleve a llamar a ese numero -->
+                <a href="tel:3225362536">322 536 2536</a>
+            </p>
+            <p class="blanco upper">
+                <span class="amarillo-palido">Email:</span>
+                <a href="mailto:pielDurazno@gmail.com">pielDurazno@gmail.com</a>
+            </p>
+            <!-- ahora para whatsapp -->
+            <p class="blanco upper">
+                <span class="amarillo-palido">WhatsApp:</span>
+                <a href="https://wa.me/3225362536" target="_blank">322 536 2536</a>
+            </p>
+        </div>
+        <!-- ahora este mismo estilo para hacer un submenu de las sedes -->
+        <div class="seccion-footer">
+            <h3 class="upper amarillo-palido">
+                SEDES
+            </h3>
+            <ul>
+                <li><a href="sede_bucaramanga.html" class="blanco upper">Bucaramanga</a></li>
+                <li><a href="sede_bogota.html" class="blanco upper">Bogotá</a></li>
+            </ul>
+        </div>
+        <!-- ahora otro para los horarios -->
+        <div class="seccion-footer">
+            <h3 class="upper amarillo-palido">
+                HORARIOS
+            </h3>
+            <p class="blanco upper">
+                Lunes a Viernes: <br> 9:00 AM - 8:00 PM
+            </p>
+            <p class="blanco upper">
+                Sábado: <br> 10:00 AM - 6:00 PM
+            </p>
+            <p class="blanco upper">
+                Domingo: <br> Cerrado
+            </p>
+        </div>
+        <!-- ahora otro submenu llamado de tu interes con enlaces a las promociones, planes, reservas y contacto -->
+        <div class="seccion-footer">
+            <h3 class="upper amarillo-palido">
+                TU INTERES
+            </h3>
+            <ul>
+                <li><a href="promociones.html" class="blanco upper">Promociones</a></li>
+                <li><a href="planes.html" class="blanco upper">Planes</a></li>
+                <li><a href="reservas.html" class="blanco upper">Reservas</a></li>
+                <li><a href="contacto.html" class="blanco upper">Contacto</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+}
+body {
+    background-color: rgb(255, 157, 101);
+}
+
+.oculto {
+    display: none;
+}
+
+
+/* estilos para mi menu */
+.boton-del-menu {
+    /* si alguna propiedad para el ancho del texto agregala */
+    padding: 2%;
+    background-color: white;
+    display: block;
+    border: none;
+    font-size: 1.8em;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+.menu {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    display: none;
+}
+.logo-del-menu {
+    width: 20%;
+    margin: 0 auto;
+}
+
+/* ahora aquí voy a poner los estilos para las secciones centradas en general */
+.seccion {
+    padding: 5%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 12% 0;
+}
+.seccion-centrada {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-seccion {
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.descripcion-seccion {
+    font-size: 0.8em;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    width: 70%;
+    margin: 4% 0;
+}
+.enlace-boton {
+    padding: 2% 6%;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 4%;
+}
+
+/* fondos de las secciones */
+.seccion-plan-pareja {
+    background-image: url("img/spa-en-pareja.png");
+    background-size: cover;
+    background-position: center;
+}
+.seccion-ninos {
+    background-image: url("img/seccion-ninos.png");
+    background-size: cover;
+    background-position: center;
+}
+.seccion-descuento {
+    background-image: url("img/seccion-descuento.png");
+    background-size: cover;
+    background-position: center;
+}
+.seccion-sede {
+    background-image: url("img/seccion-sedes.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* estilo generales de los colores de letra */
+.blanco {
+    color: white;
+}
+.sombra-texto {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
+}
+.fondo-amarillo {
+    background-color: rgb(255, 165, 69);
+}
+
+@media (min-width: 768px) {
+    .boton-del-menu, .boton-cerrar {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+}
