@@ -122,10 +122,63 @@ nav {
     margin-bottom: 4%;
 }
 
+/* css de la parte de las reseñas */
+.seccion-centrada-horizontal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seccion-resenas {
+    background-color: white;
+    color: black;
+    padding: 8%;
+    box-sizing: border-box;
+}
+.titulo-resena {
+    margin-bottom: 6%;
+}
+.resena {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 5% 0;
+}
+.foto-usuario {
+    width: 35%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+.nombre-usuario {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 4%;
+}
+.estrella {
+    color: gold;
+    font-size: 1.8em;
+}
+
+/* de la parte de estilos de instagram */
+.boton-azul {
+    background-color: rgb(0, 123, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 2% 6%;
+    font-size: 1.3em;
+}
 
 /* estilo generales de los colores de letra */
 .blanco {
     color: white;
+}
+.negro {
+    color: black;
 }
 .sombra-texto {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
