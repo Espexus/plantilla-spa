@@ -6,7 +6,7 @@ html {
     font-size: 16px;
 }
 body {
-    background-color: rgb(255, 157, 101);
+    background-color: rgb(255, 123, 46);
 }
 
 .oculto {
@@ -45,10 +45,11 @@ nav {
 
 /* ahora aquí voy a poner los estilos para las secciones centradas en general */
 .seccion {
-    padding: 5%;
-    width: 100%;
+    padding: 2%;
+    width: 96%;
     box-sizing: border-box;
-    margin: 12% 0;
+    margin: 0 auto;
+    margin: 12% auto;
 }
 .seccion-centrada {
     height: 70vh;
@@ -102,7 +103,24 @@ nav {
     background-size: cover;
     background-position: center;
 }
+/* estilos de la parte de los videos */
+.video-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
 
+}
+.video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+}
+.video-titulo {
+    font-size: 1.8em;
+    margin-bottom: 4%;
+}
 
 
 /* estilo generales de los colores de letra */
