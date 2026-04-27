@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piel Durazno Spa</title>
+    <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -56,7 +57,56 @@
     <button class="boton-cerrar oculto" id="cerrar-menu">X</button>
 
     <section class="galeria-servicios seccion-100 fade-in">
-    <!-- aquí luego colocaré uno de los carruseles de fotos. -->
+        <p class="blanco">hola hola</p>
+        <!-- Carrusel de fotos -->
+        <div class="carrusel-contenedor">
+            <!-- Slides -->
+            <div class="carrusel-slides">
+                <div class="carrusel-slide active" style="background-image: url('img/usuario1.jpg')">
+                    <div class="carrusel-contenido">
+                        <h2 class="carrusel-titulo">Planes</h2>
+                        <p class="carrusel-subtitulo">SPA PARA PAREJAS</p>
+                    </div>
+                </div>
+                <div class="carrusel-slide" style="background-image: url('img/servicio2.jpg')">
+                    <div class="carrusel-contenido">
+                        <h2 class="carrusel-titulo">Relajación</h2>
+                        <p class="carrusel-subtitulo">TRATAMIENTOS REJUVENECEDORES</p>
+                    </div>
+                </div>
+                <div class="carrusel-slide" style="background-image: url('img/servicio3.jpg')">
+                    <div class="carrusel-contenido">
+                        <h2 class="carrusel-titulo">Bienestar</h2>
+                        <p class="carrusel-subtitulo">SPA PARA NIÑOS</p>
+                    </div>
+                </div>
+                <div class="carrusel-slide" style="background-image: url('img/servicio4.jpg')">
+                    <div class="carrusel-contenido">
+                        <h2 class="carrusel-titulo">Masajes</h2>
+                        <p class="carrusel-subtitulo">TRATAMIENTOS TERAPÉUTICOS</p>
+                    </div>
+                </div>
+                <div class="carrusel-slide" style="background-image: url('img/servicio5.jpg')">
+                    <div class="carrusel-contenido">
+                        <h2 class="carrusel-titulo">Lujo</h2>
+                        <p class="carrusel-subtitulo">EXPERIENCIA PREMIUM</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botones de navegación -->
+            <button class="carrusel-btn carrusel-prev" id="prev-btn">❮</button>
+            <button class="carrusel-btn carrusel-next" id="next-btn">❯</button>
+
+            <!-- Indicadores (dots) -->
+            <div class="carrusel-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
+                <span class="dot" data-slide="4"></span>
+            </div>
+        </div>
     </section>
 
     <!-- aqui termina mi encabezado de cosas -->
@@ -178,7 +228,51 @@
         </div>
     </section>
 
-    <section class="galeria-fotos fade-in"></section>
+    
+    <section class="galeria-fotos fade-in">
+        <!-- Segundo Carrusel de Fotos -->
+        <div class="carrusel-contenedor">
+            <!-- Slides -->
+            <div class="carrusel-slides">
+                <div class="carrusel-slide active" style="background-image: url('img/galeria1.jpg')">
+                    <div class="carrusel-contenido">
+                        <h2 class="carrusel-titulo">Galería</h2>
+                        <p class="carrusel-subtitulo">NUESTROS ESPACIOS</p>
+                    </div>
+                </div>
+                <div class="carrusel-slide" style="background-image: url('img/galeria2.jpg')">
+                    <div class="carrusel-contenido">
+                        <h2 class="carrusel-titulo">Tratamientos</h2>
+                        <p class="carrusel-subtitulo">EXPERIENCIA RELAJANTE</p>
+                    </div>
+                </div>
+                <div class="carrusel-slide" style="background-image: url('img/galeria3.jpg')">
+                    <div class="carrusel-contenido">
+                        <h2 class="carrusel-titulo">Instalaciones</h2>
+                        <p class="carrusel-subtitulo">AMBIENTE ACOLGEDOR</p>
+                    </div>
+                </div>
+                <div class="carrusel-slide" style="background-image: url('img/galeria4.jpg')">
+                    <div class="carrusel-contenido">
+                        <h2 class="carrusel-titulo">Servicios</h2>
+                        <p class="carrusel-subtitulo">CALIDAD PREMIUM</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botones de navegación -->
+            <button class="carrusel-btn carrusel-prev" id="prev-btn2">❮</button>
+            <button class="carrusel-btn carrusel-next" id="next-btn2">❯</button>
+
+            <!-- Indicadores (dots) -->
+            <div class="carrusel-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
+            </div>
+        </div>
+    </section>
 
 
     <!-- ahora una seccion que se sincronice con el instagram de la empresa que no sé si eso es así realmente o se simula, solo hazlo en todo caso -->
@@ -215,7 +309,7 @@
             <!-- aquí puedes simular las publicaciones de instagram con imágenes y enlaces -->
             
         </div>
-        <button class="boton-azul blanco boton-centrado margin-vertical family_sans">Siguenos en Instagram</button>
+        <button id="boton-instagram" class="boton-azul blanco boton-centrado margin-vertical family_sans enlace-normal">Siguenos en Instagram</button>
     </section>
 
     <footer>
@@ -280,5 +374,6 @@
     </footer>
 
     <script src="slider.js"></script>
+    <script src="carrusel.js"></script>
 </body>
 </html>
