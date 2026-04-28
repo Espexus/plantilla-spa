@@ -1,8 +1,9 @@
 /* Carrusel Principal */
 .carrusel-contenedor {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 96%;
+    margin: 0 auto;
+    height: 80vh;
     overflow: hidden;
     background: #000;
 }

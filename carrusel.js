@@ -1,7 +1,7 @@
 // Variables del carrusel
 let currentSlide = 0;
-const slides = document.querySelectorAll('.carrusel-slide');
-const dots = document.querySelectorAll('.dot');
+const slides = document.querySelectorAll('.galeria-servicios .carrusel-slide');
+const dots = document.querySelectorAll('.galeria-servicios .dot');
 const prevBtn = document.getElementById('prev-btn');
 const nextBtn = document.getElementById('next-btn');
 
@@ -57,7 +57,7 @@ dots.forEach((dot, index) => {
 });
 
 // Pausar auto-avance al pasar el ratón sobre el carrusel
-const carrusel = document.querySelector('.carrusel-contenedor');
+const carrusel = document.querySelector('.galeria-servicios .carrusel-contenedor');
 if (carrusel) {
     carrusel.addEventListener('mouseenter', () => {
         clearInterval(autoAdvanceInterval);
