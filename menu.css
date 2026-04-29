@@ -1,0 +1,98 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100vh;
+    z-index: 10;
+    background-color: white;
+    font-size: 1.1em;
+    font-size: monospace;
+}
+.lista-del-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.item-del-menu {
+    list-style: none;
+    width: 90%;
+}
+.item-del-menu img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 8%;
+}
+.item-del-menu a {
+    display: block;
+    width: 100%;
+    padding: 6% 2%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+.item-del-menu a:hover {
+    background-color: #ffcfb2;
+}
+
+/* parte de los desplegables */
+.item-del-menu details {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+.item-del-menu details summary {
+    list-style: none;
+    width: 100%;
+    padding: 6% 2%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+}
+.item-del-menu details summary:hover {
+    background-color: #ffcfb2;
+}
+details li {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+/* color gris para details cuando esté open y un poco de margin inferior */
+details[open] {
+    background-color: #fff2e9;
+    margin-bottom: 4%;
+}
+
+/* agrega para que se pueda hacer scrolling en este menu */
+nav {
+    overflow-y: auto;
+}
+/* estilos del boton de cerra menú */
+.boton-cerrar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 11;
+    background-color: white;
+    padding: 2%;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+
+.negrita {
+    font-weight: bold;
+    font-size: 1.3em;
+}

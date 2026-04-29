@@ -6,6 +6,7 @@
     <title>Piel Durazno Spa</title>
     <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="menu.css">
 </head>
 <body>
     <!-- aquí tengo mi menú -->
@@ -15,13 +16,17 @@
              <!-- agrega un boton de estos de desplegar el menu tortuga copilot -->
      
              <ul class="lista-del-menu" id="lista-del-menu">
+                <li class="item-del-menu"><img src="img/logo_durazno_spa.png" alt="logo"></li>
                  <li class="item-del-menu"><a href="index.html">Inicio</a></li>
                  <!-- a este planes vuelvelo una lista desplegable pero con details summary -->
                   <!-- misma clase para otros li copilot -->
                  <li class="item-del-menu">
                      <details>
                          <!-- si puedes hacer que el summary también tenga enlace mejor -->
-                         <summary><a href="planes.html" class="enlace-completo gris-negro">Planes</a></summary>
+                          <!-- agrega en forma de texto a ese Planes una flecha de desplegar hacía abajo, no esa, la que es mucho más fina  -->
+                           <!-- la que es delgadita  -->
+                            <!-- flecha de desplegar delgadita en planes -->
+                         <summary>Planes <span class="negrita">↴</span></summary>
                          <ul>
                              <li><a href="plan1.html">Plan 1</a></li>
                              <li><a href="plan2.html">Plan 2</a></li>
@@ -33,7 +38,7 @@
                  <li class="item-del-menu">
                      <details>
                          <!-- para este también -->
-                         <summary><a href="sedes.html" class="enlace-completo gris-negro">Sedes</a></summary>
+                         <summary>Sedes <span class="negrita">↴</span></summary>
                          <ul>
                              <li><a href="sede_bucaramanga.html">Sede 1</a></li>
                              <li><a href="sede_bogota.html">Sede 2</a></li>
@@ -54,7 +59,7 @@
     </div>
 
     <!-- boton para cerrar el menu -->
-    <button class="boton-cerrar oculto" id="cerrar-menu">X</button>
+    <button class="boton-cerrar" id="cerrar-menu">X</button>
 
     <section class="galeria-servicios seccion-100 fade-in">
         <!-- Carrusel de fotos -->

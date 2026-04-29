@@ -35,9 +35,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-nav {
-    display: none;
-}
 .logo-del-menu {
     width: 20%;
     margin: 0 auto;
