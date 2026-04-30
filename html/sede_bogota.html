@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sede Bogotá</title>
+    <link rel="shortcut icon" href="../img/logo_durazno_spa.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/slider.css">
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+<body>
+    <div class="menu">
+        <button class="boton-del-menu" id="boton-menu">☰</button>
+        <nav class="menu-oculto" id="menu">
+             <!-- agrega un boton de estos de desplegar el menu tortuga copilot -->
+     
+             <ul class="lista-del-menu" id="lista-del-menu">
+                <li class="item-del-menu"><img src="../img/logo_durazno_spa.png" alt="logo"></li>
+                 <li class="item-del-menu"><a href="../index.html">Inicio</a></li>
+                 <!-- a este planes vuelvelo una lista desplegable pero con details summary -->
+                  <!-- misma clase para otros li copilot -->
+                 <li class="item-del-menu">
+                     <details>
+                         <!-- si puedes hacer que el summary también tenga enlace mejor -->
+                          <!-- agrega en forma de texto a ese Planes una flecha de desplegar hacía abajo, no esa, la que es mucho más fina  -->
+                           <!-- la que es delgadita  -->
+                            <!-- flecha de desplegar delgadita en planes -->
+                         <summary>Planes <span class="negrita">↴</span></summary>
+                         <ul>
+                             <li><a href="plan1.html">Plan 1</a></li>
+                             <li><a href="plan2.html">Plan 2</a></li>
+                             <li><a href="plan_ninos.html">Plan 3</a></li>
+                         </ul>
+                     </details>
+                 </li>
+                 <!-- desplegable de dos para sedes -->
+                 <li class="item-del-menu">
+                     <details>
+                         <!-- para este también -->
+                         <summary>Sedes <span class="negrita">↴</span></summary>
+                         <ul>
+                             <li><a href="sede_bucaramanga.html">Sede 1</a></li>
+                             <li><a href="sede_bogota.html">Sede 2</a></li>
+                         </ul>
+                     </details>
+                 </li>
+                 <li class="item-del-menu"><a href="promociones.html">Promociones</a></li>
+                 <!-- reservas -->
+                 <li class="item-del-menu"><a href="reservas.html">Reservas</a></li>
+                 <!-- galeria -->
+                 <li class="item-del-menu"><a href="galeria.html">Galeria</a></li>
+             </ul>
+     
+        </nav>
+        <img src="../img/logo_durazno_spa.png" alt="Logo Piel Durazno Spa" class="logo-del-menu">
+    </div>
+
+    <button class="boton-cerrar boton-oculto" id="boton-cerrar">X</button>
+
+    <section class="seccion-100 fondo-blanco fade-in">
+        <h1 class="titulo cursive bold upper texto-centrado margin_bottom">Sede Bogotá</h1>
+        <p class="font_13 wid90-center">Esta es nuestra nueva sede, estamos ansiosos de atender y cuidar tu belleza, recuerda visitarnos pronto.</p>
+    </section>
+
+    <section class="seccion-100 fade-in">
+        <h2 class="titulo">Nuestro personal</h2>
+        
+    </section>
+
+    <footer>
+        <div class="seccion-footer">
+            <h3 class="upper amarillo-palido">
+                CONTACTANOS
+            </h3>
+            <p class="blanco upper lista-footer">
+                <span class="amarillo-palido">Teléfono:</span>
+                <!-- enlace que lleve a llamar a ese numero -->
+                <a href="tel:3225362536" class="blanco upper enlace-normal">322 536 2536</a>
+            </p>
+            <p class="blanco upper lista-footer">
+                <span class="amarillo-palido">Email:</span>
+                <a href="mailto:pielDurazno@gmail.com" class="blanco upper enlace-normal">pielDurazno@gmail.com</a>
+            </p>
+            <!-- ahora para whatsapp -->
+            <p class="blanco upper lista-footer">
+                <span class="amarillo-palido">WhatsApp:</span>
+                <a href="https://wa.me/3225362536" target="_blank" class="blanco upper enlace-normal">322 536 2536</a>
+            </p>
+        </div>
+        <!-- ahora este mismo estilo para hacer un submenu de las sedes -->
+        <div class="seccion-footer">
+            <h3 class="upper amarillo-palido">
+                SEDES
+            </h3>
+            <ul>
+                <li><a href="sede_bucaramanga.html" class="blanco upper enlace-normal">Bucaramanga</a></li>
+                <li><a href="sede_bogota.html" class="blanco upper enlace-normal">Bogotá</a></li>
+            </ul>
+        </div>
+        <!-- ahora otro para los horarios -->
+        <div class="seccion-footer">
+            <h3 class="upper amarillo-palido">
+                HORARIOS
+            </h3>
+            <p class="blanco upper lista-footer">
+                Lunes a Viernes: <br> 9:00 AM - 8:00 PM
+            </p>
+            <p class="blanco upper lista-footer">
+                Sábado: <br> 10:00 AM - 6:00 PM
+            </p>
+            <p class="blanco upper lista-footer">
+                Domingo: <br> Cerrado
+            </p>
+        </div>
+        <!-- ahora otro submenu llamado de tu interes con enlaces a las promociones, planes, reservas y contacto -->
+        <div class="seccion-footer">
+            <h3 class="upper amarillo-palido">
+                TU INTERES
+            </h3>
+            <ul>
+                <li><a href="promociones.html" class="blanco upper enlace-normal">Promociones</a></li>
+                <li><a href="planes.html" class="blanco upper enlace-normal">Planes</a></li>
+                <li><a href="reservas.html" class="blanco upper enlace-normal">Reservas</a></li>
+                <li><a href="contacto.html" class="blanco upper enlace-normal">Contacto</a></li>
+            </ul>
+        </div>
+
+        <img src="../img/logo_durazno_spa.png" class="logo-footer">
+    </footer>
+    
+    <script src="../js/fade.js"></script>
+    <script src="../js/carrusel.js"></script>
+    <script src="../js/menu.js"></script>
+</body>
+</html>

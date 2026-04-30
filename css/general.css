@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+}
+body {
+    background-color: black;
+}
+
+.oculto {
+    display: none;
+} 
+
+/* ahora aquí voy a poner los estilos para las secciones centradas en general */
+.seccion {
+    padding: 2%;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin: 12% auto;
+}
+.seccion-100 {
+    width: 100%;
+    padding: 8% 2%;
+    margin: 0;
+}
+.seccion-centrada {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.seccion-centrada:hover, .seccion-centrada:active {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.titulo-seccion {
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.descripcion-seccion {
+    font-size: 0.8em;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    width: 70%;
+    margin: 4% 0;
+}
+.enlace-boton {
+    padding: 2% 6%;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 4%;
+}
+
+/* css de la parte de las reseñas */
+.seccion-centrada-horizontal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* de la parte de estilos de instagram */
+.boton-azul {
+    background-color: rgb(0, 123, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 2% 6%;
+    font-size: 1.3em;
+}
+
+/* estilo generales de los colores de letra */
+.blanco {
+    color: white;
+}
+.negro {
+    color: black;
+}
+.amarillo-palido {
+    /* pon un amarillo palido de color de letra */
+    color: #b09811;
+}
+.enlace-normal {
+    display: block;
+    text-decoration: none;
+}
+.upper {
+    text-transform: uppercase;
+}
+.sombra-texto {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
+}
+.fondo-amarillo {
+    background-color: rgb(255, 165, 69);
+}
+.fondo-oscuro {
+    background-color: #333;
+}
+.fondo-negro {
+    background-color: #000000;
+}
+.fondo-blanco {
+    background-color: white;
+}
+.bold {
+    font-weight: bold;
+}
+.cursive {
+    font-family: cursive;
+}
+.font_13 {
+    font-size: 1.3em;
+}
+.font_08 {
+    font-size: 0.8em;
+}
+.wid90-center {
+    width: 90%;
+    margin: 0 auto;
+}
+.family_sans {
+    font-family: sans-serif;
+}
+.texto-centrado {
+    text-align: center;
+}
+.titulo {
+    font-size: 2.2em;
+}
+.margin_bottom {
+    margin-bottom: 4%;
+}
+/* general para bottones */
+.boton-centrado {
+    display: block;
+    margin: 0 auto;
+}
+.boton-centrado:hover, .boton-centrado:active  {
+    transform: scale(1.08);
+    transition: transform 0.3s ease-in-out;
+}
+.boton-azul {
+    background-color: rgb(0, 90, 186);
+    border: none;
+    border-radius: 14px;
+    padding: 4% 8%;
+    font-size: 1.2em;
+}
+.boton-azul:hover, .boton-azul:active {
+    background-color: rgb(0, 112, 232);
+}
+.margin-vertical {
+    margin: 4% auto;
+}
+
+/* sección de animación para el scroliing */
+/* mira querido copilot, necesito que hagas un efecto de   fade in on scroll para todos los elementos o secciones relevantes de esta página, ten mucho cuidado de no romper nada y solo genera el codigo desde este comentario en adelante, no modifiques nada de mi css anterior. */
+.fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}

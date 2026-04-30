@@ -1,0 +1,200 @@
+
+/* estilos para mi menu */
+.boton-del-menu {
+    /* si alguna propiedad para el ancho del texto agregala */
+    padding: 2%;
+    background-color: white;
+    display: block;
+    border: none;
+    font-size: 1.8em;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+.menu {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.logo-del-menu {
+    width: 20%;
+    margin: 0 auto;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100vh;
+    z-index: 10;
+    background-color: white;
+    font-size: 1.1em;
+    font-size: monospace;
+}
+.lista-del-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.item-del-menu {
+    list-style: none;
+    width: 90%;
+}
+.item-del-menu img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 8%;
+}
+.item-del-menu a {
+    display: block;
+    width: 100%;
+    padding: 6% 2%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+.item-del-menu a:hover, .item-del-menu a:active {
+    background-color: #ffcfb2;
+    font-weight: bold;
+    transform: scale(1.02);
+}
+
+/* parte de los desplegables */
+.item-del-menu details {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+.item-del-menu details summary {
+    list-style: none;
+    width: 100%;
+    padding: 6% 2%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+.item-del-menu details summary:hover, .item-del-menu details summary:active {
+    background-color: #ffcfb2;
+    font-weight: bold;
+    transform: scale(1.02);
+}
+details li {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+/* color gris para details cuando esté open y un poco de margin inferior */
+/* ponle una animación para cuando se abre, ese animation no funcionó ponlo donde si debes y que sirva */
+
+details[open] {
+    background-color: #fff2e9;
+    margin-bottom: 4%;
+    animation: abrirDetails 0.5s ease-out;
+}
+
+details[open] ul {
+    animation: abrirLista 0.5s ease-out;
+}
+
+details[open] li {
+    animation: abrirItem 0.5s ease-out;
+}
+
+@keyframes abrirDetails {
+    from {
+        max-height: 0;
+        opacity: 0;
+    }
+    to {
+        max-height: 500px;
+        opacity: 1;
+    }
+}
+
+@keyframes abrirLista {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes abrirItem {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* agrega para que se pueda hacer scrolling en este menu */
+nav {
+    overflow-y: auto;
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+}
+/* estilos del boton de cerra menú */
+.boton-cerrar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 11;
+    background-color: white;
+    padding: 2%;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    max-height: 50px;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out, max-height 0.5s ease-in-out;
+}
+
+/* clase de menu oculto y transición cuando se muestra, se oculta a la izquierda de la pantalla simplemente */
+.menu-oculto {
+    transform: translateX(-100%);
+    transition: transform 0.6s ease-in-out;
+}
+.boton-oculto {
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+} 
+
+.negrita {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+/* parte responsive */
+@media (min-width: 768px) {
+    .boton-del-menu, .boton-cerrar {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+}

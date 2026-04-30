@@ -1,0 +1,26 @@
+/* estilos del pie de página */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 4%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+}
+.seccion-footer {
+    margin: 4% 0;
+}
+footer li, .lista-footer {
+    list-style: none;
+    margin: 2% 0;
+}
+.logo-footer {
+    width: 64%;
+    border-radius: 20px;
+    margin-top: 8%;
+    margin: 4% auto;
+}
+footer a:hover, footer a:active {
+    text-decoration: underline;
+}

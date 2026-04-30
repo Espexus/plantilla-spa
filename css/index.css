@@ -1,0 +1,138 @@
+.galeria-servicios {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+    position: relative;
+}
+.galeria-fotos {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+    position: relative;
+}
+
+/* fondos de las secciones */
+.seccion-plan-pareja {
+    background-image: url("../img/spa-en-pareja.png");
+    background-size: cover;
+    background-position: center;
+}
+.seccion-ninos {
+    background-image: url("../img/seccion-ninos.png");
+    background-size: cover;
+    background-position: center;
+}
+.seccion-descuento {
+    background-image: url("../img/seccion-descuento.png");
+    background-size: cover;
+    background-position: center;
+}
+.seccion-sede {
+    background-image: url("../img/seccion-sedes.png");
+    background-size: cover;
+    background-position: center;
+}
+/* estilos de la parte de los videos */
+.seccion-video {
+    padding: 12% 2%;
+}
+.video-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.video {
+    width: 94%;
+    aspect-ratio: 16 / 9;
+    border: none;
+}
+.video:hover, .video:active {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.video-titulo {
+    font-size: 1.8em;
+    margin-bottom: 4%;
+}
+
+.seccion-resenas {
+    background-color: white;
+    color: black;
+    padding: 8%;
+    box-sizing: border-box;
+}
+.titulo-resena {
+    margin-bottom: 6%;
+}
+.resena {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 5% 0;
+}
+.foto-usuario {
+    width: 35%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+.nombre-usuario {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 4%;
+}
+.estrella {
+    color: gold;
+    font-size: 1.8em;
+}
+
+
+/* otras imagenes e instagram sección */
+.encabezado-instagram {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 4%;
+}
+.imagen-logo-instagram {
+    flex: 0 0 25%;
+    margin-right: 6%;
+}
+.logo-instagram {
+    width: 100%;
+    margin-right: 4%;
+    border-radius: 50%;
+    display: inline-block;
+}
+.imagenes-instagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;;
+}
+.publicacion-instagram {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin: 4% 0;
+}
+.publicacion-instagram-imagen {
+    width: 100%;
+    border-radius: 10px;
+}
+.publicacion-instagram-imagen:hover, .publicacion-instagram-imagen:active {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+

@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo_durazno_spa.png" type="image/x-icon">
     <title>Piel Durazno Spa</title>
-    <link rel="stylesheet" href="slider.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/index.css">   
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
     <!-- aquí tengo mi menú -->
     <div class="menu">
         <button class="boton-del-menu" id="boton-menu">☰</button>
-        <nav>
+        <nav class="menu-oculto" id="menu">
              <!-- agrega un boton de estos de desplegar el menu tortuga copilot -->
      
              <ul class="lista-del-menu" id="lista-del-menu">
@@ -28,9 +31,9 @@
                             <!-- flecha de desplegar delgadita en planes -->
                          <summary>Planes <span class="negrita">↴</span></summary>
                          <ul>
-                             <li><a href="plan1.html">Plan 1</a></li>
-                             <li><a href="plan2.html">Plan 2</a></li>
-                             <li><a href="plan_ninos.html">Plan 3</a></li>
+                             <li><a href="html/plan1.html">Plan 1</a></li>
+                             <li><a href="html/plan2.html">Plan 2</a></li>
+                             <li><a href="html/plan_ninos.html">Plan 3</a></li>
                          </ul>
                      </details>
                  </li>
@@ -40,18 +43,16 @@
                          <!-- para este también -->
                          <summary>Sedes <span class="negrita">↴</span></summary>
                          <ul>
-                             <li><a href="sede_bucaramanga.html">Sede 1</a></li>
-                             <li><a href="sede_bogota.html">Sede 2</a></li>
+                             <li><a href="html/sede_bucaramanga.html">Sede 1</a></li>
+                             <li><a href="html/sede_bogota.html">Sede 2</a></li>
                          </ul>
                      </details>
                  </li>
-                 <li class="item-del-menu"><a href="promociones.html">Promociones</a></li>
+                 <li class="item-del-menu"><a href="html/promociones.html">Promociones</a></li>
                  <!-- reservas -->
-                 <li class="item-del-menu"><a href="reservas.html">Reservas</a></li>
-                 <!-- contacto -->
-                 <li class="item-del-menu"><a href="contacto.html">Contacto</a></li>
+                 <li class="item-del-menu"><a href="html/reservas.html">Reservas</a></li>
                  <!-- galeria -->
-                 <li class="item-del-menu"><a href="galeria.html">Galeria</a></li>
+                 <li class="item-del-menu"><a href="html/galeria.html">Galeria</a></li>
              </ul>
      
         </nav>
@@ -59,7 +60,7 @@
     </div>
 
     <!-- boton para cerrar el menu -->
-    <button class="boton-cerrar" id="cerrar-menu">X</button>
+    <button class="boton-cerrar boton-oculto" id="boton-cerrar">X</button>
 
     <section class="galeria-servicios seccion-100 fade-in">
         <!-- Carrusel de fotos -->
@@ -377,7 +378,8 @@
         <img src="img/logo_durazno_spa.png" class="logo-footer">
     </footer>
 
-    <script src="slider.js"></script>
-    <script src="carrusel.js"></script>
+    <script src="js/fade.js"></script>
+    <script src="js/carrusel.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
