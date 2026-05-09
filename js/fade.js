@@ -4,15 +4,13 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('show');
+      observer.unobserve(entry.target);
     }
   });
 }, {
-  threshold: 0.3
+  threshold: 0.1,
+  rootMargin: '0px 0px -15% 0px'
 });
 
-boton_instagram = document.getElementById('boton-instagram');
-boton_instagram.addEventListener('click', () => {
-  window.open('https://www.instagram.com/piel.duraznospa/', '_blank');
-});
 
 elementos.forEach(el => observer.observe(el));

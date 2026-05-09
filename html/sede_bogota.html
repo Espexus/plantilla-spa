@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/slider.css">
     <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/deslizador-sede.css">
+    <link rel="stylesheet" href="../css/mapas.css">
 </head>
 <body>
     <div class="menu">
@@ -42,8 +44,8 @@
                          <!-- para este también -->
                          <summary>Sedes <span class="negrita">↴</span></summary>
                          <ul>
-                             <li><a href="sede_bucaramanga.html">Sede 1</a></li>
-                             <li><a href="sede_bogota.html">Sede 2</a></li>
+                             <li><a href="sede_bucaramanga.html">Bucaramanga</a></li>
+                             <li><a href="sede_bogota.html">Bogotá</a></li>
                          </ul>
                      </details>
                  </li>
@@ -61,13 +63,31 @@
     <button class="boton-cerrar boton-oculto" id="boton-cerrar">X</button>
 
     <section class="seccion-100 fondo-blanco fade-in">
-        <h1 class="titulo cursive bold upper texto-centrado margin_bottom">Sede Bogotá</h1>
+        <h1 class="titulo-mediano family-sans bold upper texto-centrado margin_bottom">Sede Bogotá</h1>
         <p class="font_13 wid90-center">Esta es nuestra nueva sede, estamos ansiosos de atender y cuidar tu belleza, recuerda visitarnos pronto.</p>
+        <div class="carrusel-sede">
+            <div class="carrusel-track">
+                <article class="carrusel-item">
+                    <img src="../img/bogota-1.jpg" alt="Sala de spa Bucaramanga">
+                </article>
+                <article class="carrusel-item">
+                    <video src="../img/bogota-video-1.mp4" muted autoplay loop playsinline></video>
+                </article>
+                <article class="carrusel-item">
+                    <img src="../img/bogota-2.jpg" alt="Tratamiento facial Bucaramanga">
+                </article>
+                <article class="carrusel-item">
+                    <video src="../img/bogota-video-2.mp4" muted autoplay loop playsinline></video>
+                </article>
+                <article class="carrusel-item">
+                    <img src="../img/bogota-3.jpg" alt="Zona de descanso Bucaramanga">
+                </article>
+            </div>
+        </div>
     </section>
 
-    <section class="seccion-100 fade-in">
-        <h2 class="titulo">Nuestro personal</h2>
-        
+    <section class="seccion-100">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.961669559272!2d-74.13169692689483!3d4.600888242518653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9f419b3543f3%3A0x56fb7a897f49b47f!2sPiel%20Durazno%20Spa%20Bogota!5e0!3m2!1ses!2sco!4v1778340804482!5m2!1ses!2sco" class="mapa-frame" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
     <footer>
@@ -134,5 +154,6 @@
     <script src="../js/fade.js"></script>
     <script src="../js/carrusel.js"></script>
     <script src="../js/menu.js"></script>
+    <script src="../js/deslizador-sede.js"></script>
 </body>
 </html>
