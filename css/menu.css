@@ -12,6 +12,8 @@
     font-family: 'Arial', sans-serif;
 }
 .menu {
+    /* position: fixed;
+    z-index: 20; */
     background-color: white;
     display: flex;
     width: 100%;
@@ -156,6 +158,37 @@ nav {
     transform: translateX(0);
     transition: transform 0.3s ease-in-out;
 }
+/* estilos de distribuición del banner de publicidad */
+.banner-promociones {
+    width: 100%;
+    position: fixed;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    top: 0;
+    background-color: #ffcfb2;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    height: 30px;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.banner-promociones a {
+    display: inline-block;
+    animation: mover 8s linear infinite;
+}
+@keyframes mover {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
 /* estilos del boton de cerra menú */
 .boton-cerrar {
     position: fixed;
