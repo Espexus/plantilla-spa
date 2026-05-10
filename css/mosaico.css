@@ -1,0 +1,89 @@
+.menu-mosaico {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.caja-mosaico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    aspect-ratio: 1/1;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 12px #ffa56e;
+    transition: transform 0.3s ease;
+    margin: 4% 0;
+}
+.caja-mosaico:hover {
+    box-shadow: 0 0 20px #ffa56e;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.caja-mosaico:active {
+    box-shadow: 0 0 20px #ffa56e;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+/* partes de los fondos propios de cada menú */
+#spa1p {
+    background-image: url('../img/spa-una-persona-fondo.jpg');
+}
+#spa2p {
+    background-image: url('../img/spa-pareja-fondo.jpg');
+}
+
+#spa1k {
+    background-image: url('../img/spa-nino-fondo.jpg');
+}
+#spa2k {
+    background-image: url('../img/spa-2ninos-fondo.jpg');
+}
+#spaGk {
+    background-image: url('../img/grupo-de-ninos-fondo.jpg');
+}
+
+#spaG {
+    background-image: url('../img/spa-grupal-fondo.jpg');
+}
+
+#limpieza-facial {
+    background-image: url('../img/limpieza-facial.jpg');
+}
+#dermapen {
+    background-image: url('../img/dermapen.jpg');
+}
+#plasma {
+    background-image: url('../img/plasma.jpg');
+}
+#esperma-salmon {
+    background-image: url('../img/esperma-salmon.jpg');
+}
+
+#botox {
+    background-image: url('../img/botox.jpg');
+}
+#baby-botox {
+    background-image: url('../img/baby-botox.jpg');
+}
+#fixer {
+    background-image: url('../img/fixer.jpg');
+}
+
+#reductores {
+    background-image: url('../img/reductores.jpg');
+}
+#levantamiento-gluteos {
+    background-image: url('../img/levantamiento-gluteos.jpg');
+}
+#masajes {
+    background-image: url('../img/masajes.jpg');
+}

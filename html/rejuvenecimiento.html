@@ -3,15 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sede Bucaramanga</title>
-    <link rel="shortcut icon" href="../img/logo_durazno_spa.png" type="image/x-icon">
+    <title>Spa Estandar</title>
 
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/slider.css">
-    <link rel="stylesheet" href="../css/deslizador-sede.css">
     <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/mapas.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/mosaico.css">
 </head>
 <body id="body">
     <div class="banner-promociones font_08" id="banner-promociones">
@@ -64,36 +61,26 @@
     </div>
 
     <button class="boton-cerrar boton-oculto" id="boton-cerrar">X</button>
-    
 
-    <section class="seccion-100 fondo-blanco fade-in">
-        <h1 class="titulo-mediano family-sans bold upper texto-centrado margin_bottom">Sede Bucaramanga</h1>
-        <p class="font_13 wid90-center texto-centrado family-sans">Esta es nuestra sede Santandereana, estamos ansiosos de atender y cuidar tu belleza, recuerda visitarnos pronto.</p>
 
-        <div class="carrusel-sede">
-            <div class="carrusel-track">
-                <article class="carrusel-item">
-                    <img src="../img/bucaramanga-1.jpg" alt="Sala de spa Bucaramanga">
-                </article>
-                <article class="carrusel-item">
-                    <video src="../img/bucaramanga-video-1.mp4" muted autoplay loop playsinline></video>
-                </article>
-                <article class="carrusel-item">
-                    <img src="../img/bucaramanga-2.jpg" alt="Tratamiento facial Bucaramanga">
-                </article>
-                <article class="carrusel-item">
-                    <video src="../img/bucaramanga-video-2.mp4" muted autoplay loop playsinline></video>
-                </article>
-                <article class="carrusel-item">
-                    <img src="../img/bucaramanga-3.jpg" alt="Zona de descanso Bucaramanga">
-                </article>
-            </div>
+    <section class="seccion-100 fade-in menu-mosaico">
+        <div class="caja-mosaico" id="botox">
+            <h4 class="titulo-caja-mosaico blanco upper family_sans bold sombra-texto">Botox y ácido hialurónico</h4>
+            <p class="blanco font_08 sombra-texto">Tratamiento contra arrugas y líneas de expresión</p>
+        </div>
+        <div class="caja-mosaico" id="baby-botox">
+            <h4 class="titulo-caja-mosaico blanco upper family_sans bold sombra-texto">Baby Botox</h4>
+            <p class="blanco font_08 sombra-texto">Tratamiento suave contra arrugas</p>
+        </div>
+        <div class="caja-mosaico" id="fixer">
+            <h4 class="titulo-caja-mosaico blanco upper family_sans bold sombra-texto">Fixer</h4>
+            <p class="blanco font_08 sombra-texto">Tratamiento para corregir imperfecciones faciales</p>
         </div>
     </section>
-    <section class="seccion-100 fade-in">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.4865502303946!2d-73.10690222687784!3d7.069447416582212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e683fd34aadc21b%3A0x842bf7a3b3af90a!2sPiel%20Durazno%20Spa!5e0!3m2!1ses!2sco!4v1778340450884!5m2!1ses!2sco" class="mapa-frame" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
 
+    <script src="../js/menu.js"></script>
+    <script src="../js/fade.js"></script>
+    <script src="../js/mosaico-rutas.js"></script>
     <footer>
         <div class="seccion-footer">
             <h3 class="upper amarillo-palido">
@@ -154,10 +141,5 @@
 
         <img src="../img/logo_durazno_spa.png" class="logo-footer">
     </footer>
-    
-    <script src="../js/fade.js"></script>
-    <script src="../js/carrusel.js"></script>
-    <script src="../js/menu.js"></script>
-    <script src="../js/deslizador-sede.js"></script>
 </body>
 </html>
