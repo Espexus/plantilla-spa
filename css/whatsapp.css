@@ -1,0 +1,67 @@
+.panel-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9;
+    width: 70%;
+    min-width: 50px;
+    padding: 2%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+.imagen-wp {
+    width: 30%;
+}
+.logo-wp {
+    width: 100%;
+}
+
+.pantalla-wp {
+    width: 100%;
+    background-image: url("../img/fondo-wp.jpg");
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+.encabezado-verde {
+    background-color: #25D366;
+    color: white;
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 45vh;
+}
+.boton-menu-wp {
+    background-color: #25D366;
+    color: white;
+    padding: 4% 8%;
+    font-size: 1.1em;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 6%;
+    transition: all 0.3s ease;
+}
+.boton-menu-wp:hover {
+    background-color: #1DA851;
+    transform: scale(1.15);
+    text-decoration: none;
+}
+
+.none {
+    opacity: 0;
+    display: none;
+    transition: opacity 0.6s ease, visibility 0.6s ease;
+}

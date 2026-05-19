@@ -1,0 +1,27 @@
+.imagen-promocion {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+.contenido-promocion {
+    width: 94%;
+    padding-left: 4%;
+    box-sizing: border-box;
+    margin-bottom: 4%;
+}
+.espacio-imagen-promocion {
+    width: 100%;
+}
+.caja-promocion {
+    box-shadow: 8px 8px 8px rgb(32, 32, 32);
+    margin: 12% auto;
+    padding-bottom: 2%;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.caja-promocion:hover {
+    transform: scale(1.03);
+}
+.boton-reservar-promo {
+    margin-bottom: 4%;
+}

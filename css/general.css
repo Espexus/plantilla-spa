@@ -112,6 +112,9 @@ body {
 .fondo-oscuro {
     background-color: #333;
 }
+.fondo-degradado-negro-blanco {
+    background: linear-gradient(to bottom, black, rgb(30, 30, 30), black);
+}
 .fondo-negro {
     background-color: #000000;
 }
@@ -123,6 +126,9 @@ body {
 }
 .cursive {
     font-family: cursive;
+}
+.font_15 {
+    font-size: 1.6em;
 }
 .font_13 {
     font-size: 1.3em;
@@ -136,6 +142,9 @@ body {
 }
 .family_sans {
     font-family: sans-serif;
+}
+.family-monospace {
+    font-family: monospace;
 }
 .texto-centrado {
     text-align: center;
