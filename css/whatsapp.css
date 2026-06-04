@@ -75,3 +75,23 @@
     display: none;
     transition: opacity 0.6s ease, visibility 0.6s ease;
 }
+
+@media (min-width: 1024px) {
+    .panel-whatsapp {
+        width: 30%;
+    }
+    .imagen-wp {
+        width: 7%;
+        bottom: 3%;
+        right: 3%;
+    }
+    .pantalla-wp {
+        width: 40%;
+        bottom: 20%;
+        right: 3%;
+    }
+    .boton-menu-wp {
+        font-size: 1.25em;   
+        padding: 3% 6%;
+    }
+}
