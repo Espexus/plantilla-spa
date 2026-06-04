@@ -225,11 +225,57 @@ nav {
 }
 
 /* parte responsive */
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .boton-del-menu, .boton-cerrar {
         display: none;
     }
     nav {
-        display: block;
+        top: 30px;
+        height: auto;
+        padding: 0;
+        width: 100%;
+    }
+    .menu {
+        padding: 0;
+    }
+    #menu {
+        transform: translateX(0);
+    }
+    .lista-del-menu {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .item-del-menu img {
+        margin-bottom: 0;
+        width: 40%;
+    }
+    .logo-del-menu {
+        display:none;
+    }
+    /* permitir que los <details> desplegados salgan del flujo sin romper el tamaño del menú */
+    nav, .menu, .lista-del-menu, #menu {
+        overflow: visible;
+    }
+    /* posicionar el contenido del details fuera del flujo del menú cuando esté abierto */
+    .lista-del-menu details {
+        position: relative;
+        background-color: white; /* conservar fondo del menú */
+    }
+    .lista-del-menu details[open] > *:not(summary) {
+        position: absolute;
+        top: 100%; /* aparece debajo del summary */
+        left: 0;
+        font-size: 0.9em;
+        padding: 0 2%;
+        box-sizing: border-box;
+        z-index: 11;
+        background-color: white; /* conservar fondo del menú */
+        width: 100%;/* ajustar al contenido */
+        /* background-color: white; /* conservar fondo del menú  */
+    }
+    .item-del-menu:hover {
+        cursor: pointer;
     }
 }
