@@ -24,3 +24,19 @@ footer li, .lista-footer {
 footer a:hover, footer a:active {
     text-decoration: underline;
 }
+
+@media (min-width: 1024px) {
+    footer {
+        padding: 2%;
+    }
+    .seccion-footer {
+        margin: 1% 0;
+    }
+    footer li, .lista-footer {
+        margin: 1% 0;
+    }
+    .logo-footer {
+        width: 25%;
+        margin: 2% auto;
+    }
+}

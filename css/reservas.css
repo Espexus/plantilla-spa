@@ -56,3 +56,28 @@ option {
     background-color: #d1a91c;
     transition: background-color 0.3s ease-in-out;
 }
+
+@media (min-width: 1024px) {
+    form {
+        width: 50%;
+    }
+    .seccion-form {
+        padding: 1%;
+    }
+    .seccion-flex-horizontal {
+        flex-direction: column;
+    }
+    label {
+        font-size: 1.3em;
+    }
+    select, input[type="date"] {
+        font-size: 1em;
+        padding: 6% 3%;
+    }
+    .campo-formulario {
+        margin: 1% auto;
+    }
+    option {
+        font-size: 0.8em;
+    }
+}

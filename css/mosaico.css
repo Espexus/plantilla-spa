@@ -87,3 +87,13 @@
 #masajes {
     background-image: url('../img/masajes.jpg');
 }
+
+@media (min-width: 1024px) {
+    .menu-mosaico {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .caja-mosaico {
+        width: 28%;
+    }
+}

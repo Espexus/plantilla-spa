@@ -47,17 +47,22 @@
     cursor: grabbing;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     .carrusel-sede {
-        max-width: 95%;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .carrusel-track {
+        gap: 16px;
+        padding: 1%;
+    }
+    .carrusel-item {
+        aspect-ratio: 4/3;
     }
 
-    .carrusel-item {
-        aspect-ratio: 16 / 9;
-    }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .carrusel-sede {
         border-radius: 16px;
         margin: 24px auto 0;
