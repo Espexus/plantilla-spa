@@ -8,3 +8,12 @@
 .margen-bajo {
     margin-bottom: 8%;
 }
+
+@media (min-width: 1024px) {
+    .video {
+        width: 60%;
+        aspect-ratio: 20/9;
+        margin: 2% auto;
+    }
+
+}

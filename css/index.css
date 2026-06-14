@@ -13,7 +13,7 @@
 
 /* fondos de las secciones */
 .seccion-plan-pareja {
-    background-image: url("../img/spa-pareja.png");
+    background-image: url("../img/spa-pareja.png"); 
     background-size: cover;
     background-position: center;
 }
@@ -135,4 +135,50 @@
     transition: transform 0.3s ease-in-out;
 }
 
+@media (min-width: 1024px) {
+    .carrusel-contenedor {
+        width: 100%;
+        padding: 1% 4%;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    /* zona de las reseñas */
+    .titulo-resena {
+        margin-bottom: 0;
+    }
+    .seccion-resenas {
+        padding: 4%;
+    }
+    .resena {
+        width: 50%;
+        margin: 2% 0;
+    }
+    .foto-usuario {
+        width: 30%;
+    }
+    .seccion-video {
+        padding: 8% 4%;
+    }
+    .video-contenedor {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .titulo-video {
+        margin-bottom: 1%;
+    }
 
+    /* ahora la parte de instagram */
+    .imagen-logo-instagram {
+        flex: 0 0 15%;
+        margin-right: 3%;
+    }
+    .imagenes-instagram {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .publicacion-instagram {
+        width: 30%;
+        margin: 2% 0;
+    }
+}

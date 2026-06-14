@@ -59,7 +59,7 @@
 
 /* Títulos del slide */
 .carrusel-titulo {
-    font-size: 4rem;
+    font-size: 4em;
     font-weight: 300;
     letter-spacing: 2px;
     margin: 0;
@@ -68,7 +68,7 @@
 }
 
 .carrusel-subtitulo {
-    font-size: 1.8rem;
+    font-size: 1.8em;
     font-weight: 600;
     letter-spacing: 3px;
     margin: 15px 0 0 0;
@@ -190,5 +190,12 @@
 
     .carrusel-next {
         right: 10px;
+    }
+} @media (min-width: 1024px) {
+    .carrusel-titulo {
+        font-size: 3em;
+    }
+    .carrusel-subtitulo {
+        font-size: 1.2em;
     }
 }

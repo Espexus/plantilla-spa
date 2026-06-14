@@ -278,4 +278,15 @@ nav {
     .item-del-menu:hover {
         cursor: pointer;
     }
+    .banner-promociones a {
+        animation: mover 16s linear infinite;
+    }
+    @keyframes mover {
+    from {
+        transform: translateX(100vw);
+    }
+    to {
+        transform: translateX(-50vw);
+    }
+}
 }
