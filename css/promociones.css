@@ -25,3 +25,24 @@
 .boton-reservar-promo {
     margin-bottom: 4%;
 }
+
+@media (min-width: 1024px) {
+    .caja-promocion {
+        flex: 0 0 46%;
+        margin: 0;
+    }
+    .flex-horizontal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 2%;
+        gap: 4%;
+    }
+    .titulo {
+        margin-bottom: 2%;
+    }
+    .boton {
+        font-size: 1.2em;
+        padding: 3% 8%;
+    }
+}
