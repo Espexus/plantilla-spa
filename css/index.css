@@ -156,6 +156,9 @@
     .foto-usuario {
         width: 30%;
     }
+    .estrella {
+        font-size: 2.6em;
+    }
     .seccion-video {
         padding: 8% 4%;
     }
