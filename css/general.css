@@ -92,6 +92,9 @@ body {
 .negro {
     color: black;
 }
+.durazno {
+    color: #ffcfb2;
+}
 .amarillo-palido {
     /* pon un amarillo palido de color de letra */
     color: #b09811;
@@ -148,6 +151,15 @@ body {
 }
 .family-monospace {
     font-family: monospace;
+}
+.indicador {
+    width: 60%;
+    background-color: #ffcfb2;
+    color: black;
+    padding: 2% 0;
+    border-radius: 6px;
+    margin: 3% auto;
+    margin-bottom: 10%;
 }
 .texto-centrado {
     text-align: center;
