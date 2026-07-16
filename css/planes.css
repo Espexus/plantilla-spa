@@ -23,10 +23,14 @@ h1{
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    padding: 4%;
+    padding: 1% 4%;
     box-sizing: border-box;
     margin: 4% 0;
     border-radius: 20px;
+    transition: ease 0.3s;
+}
+.plan:hover {
+    transform: scale(1.04);
 }
 .encabezado-plan {
     margin-bottom: 8%;
@@ -73,6 +77,9 @@ h3 {
     color: white;
     background: none;
     border: none;
+}
+.boton-reservar-plan:hover {
+    cursor: pointer;
 }
 
 @media(min-width: 1028px) {
