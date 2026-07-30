@@ -1,7 +1,7 @@
 (function(){
 botones = document.querySelectorAll(".boton");
 botones.forEach(boton => {
-    boton.addEventListener("click", mensaje)
+    boton.addEventListener("click", comprobacion)
 });
 
 mensajes = [
@@ -33,6 +33,15 @@ ids = [
     "estandar"
 ]
 
+function comprobacion (e) {
+    if (e.target.classList.contains("reserva")) {
+        mensaje(e)
+    }
+    else {
+        ruta = e.target.id;
+        window.open(`../planes/${ruta}.html`)
+    }
+}
 
 function mensaje (e){
     textoId = e.target.id;

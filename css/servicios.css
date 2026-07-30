@@ -8,12 +8,39 @@
 .margen-bajo {
     margin-bottom: 8%;
 }
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2%;
+    gap: 4%;
+}
+.reserva {
+    background-color: blueviolet;
+    transition: all 0.5s ease;
+}
+.reserva:hover {
+    background-color: rgb(71, 0, 138);
+}
+.boton {
+    flex: 0 0 45%;
+    margin: 2% 0;
+}
+
 
 @media (min-width: 1024px) {
     .video {
         width: 60%;
         aspect-ratio: 20/9;
         margin: 2% auto;
+    }
+    .botones-contenedor {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .boton {
+        flex: 0 0 20%;
     }
 
 }
