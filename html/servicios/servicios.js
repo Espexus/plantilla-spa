@@ -7,16 +7,16 @@ botones.forEach(boton => {
 mensajes = [
     "Baby Botox",
     "Botox",
-    "Dermapen",
-    "Esperma de Salmón",
+    "Antimanchas",
+    "Hidratación",
     "Fixer",
     "Spa Kids",
     "Levantamiento de Gluteos",
     "Limpieza Fácial",
     "masajes",
-    "Plasma rico en plaquetas",
+    "Antiacné",
     "Reductores de medidas",
-    "Spa Estandar"
+    "Spa relante"
 ]
 ids = [
     "baby",
