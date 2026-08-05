@@ -50,7 +50,7 @@ function mensaje (e){
 
     mensaje = `*Hola,* buen día\nTengo mucho interés por su servicio *${servicio}*\n¿Puedes darme más información?`
 
-    window.open(`https://wa.me/573212890180/?text=${encodeURIComponent(mensaje)}`, "_blank");
+    window.open(`https://wa.me/3225362536/?text=${encodeURIComponent(mensaje)}`, "_blank")
 
 }
 
