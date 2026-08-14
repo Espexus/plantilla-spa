@@ -16,7 +16,8 @@ mensajes = [
     "masajes",
     "Antiacné",
     "Reductores de medidas",
-    "Spa relante"
+    "Spa relante",
+    "Spa familiar para papá, mamá e hij@"
 ]
 ids = [
     "baby",
@@ -30,7 +31,8 @@ ids = [
     "masajes",
     "plasma",
     "reductores",
-    "estandar"
+    "estandar",
+    "familiar"
 ]
 
 function comprobacion (e) {

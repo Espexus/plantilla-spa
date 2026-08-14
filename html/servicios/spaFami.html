@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/logo_durazno_spa.png" type="image/x-icon">
-    <title>Servicios estándar</title>
+    <link rel="shortcut icon" href="../../img/logo_durazno_spa.png" type="image/x-icon">
+    <title>Spa Familiar</title>
 
-    <link rel="stylesheet" href="../css/mosaico.css">
-    <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/whatsapp.css">
+    <link rel="stylesheet" href="../../css/menu.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/general.css">
+    <link rel="stylesheet" href="../../css/servicios.css">
+    <link rel="stylesheet" href="../../css/whatsapp.css">
 </head>
 <body id="body">
     <div class="banner-promociones font_08" id="banner-promociones">
-        <a href="../html/promociones.html" class="enlace-normal negro">CLICK AQUÍ PARA CONOCER EL 2X1 EN LIMPIEZA FACIAL.</a>
+        <a href="../promociones.html" class="enlace-normal negro">CLICK AQUÍ PARA CONOCER EL 2X1 EN LIMPIEZA FACIAL.</a>
     </div>
 
     <div class="menu">
@@ -22,16 +22,16 @@
 
         <nav class="menu-oculto" id="menu">
              <ul class="lista-del-menu" id="lista-del-menu">
-                <li class="item-del-menu"><img src="../img/logo_png.png" alt="logo"></li>
-                 <li class="item-del-menu"><a href="../index.html">Inicio</a></li>
+                <li class="item-del-menu"><img src="../../img/logo_png.png" alt="logo"></li>
+                 <li class="item-del-menu"><a href="../../index.html">Inicio</a></li>
                  <li class="item-del-menu">
                      <details>
                          <summary>Planes <span class="negrita">↴</span></summary>
                          <ul>
-                             <li><a href="relajante.html">Spa Relajante</a></li>
-                             <li><a href="corporales.html">Corporales</a></li>
-                             <li><a href="spa_kids.html">Spa Kids</a></li>
-                             <li><a href="facial.html">Facial</a></li>
+                             <li><a href="../relajante.html">Spa Relajante</a></li>
+                             <li><a href="../corporales.html">Corporales</a></li>
+                             <li><a href="../spa_kids.html">Spa Kids</a></li>
+                             <li><a href="../facial.html">Facial</a></li>
                          </ul>
                      </details>
                  </li>
@@ -39,50 +39,36 @@
                      <details>
                          <summary>Sedes <span class="negrita">↴</span></summary>
                          <ul>
-                             <li><a href="sede_bucaramanga.html">Bucaramanga</a></li>
-                             <li><a href="sede_bogota.html">Bogotá</a></li>
+                             <li><a href="../sede_bucaramanga.html">Bucaramanga</a></li>
+                             <li><a href="../sede_bogota.html">Bogotá</a></li>
                          </ul>
                      </details>
                  </li>
-                 <li class="item-del-menu"><a href="promociones.html">Promociones</a></li>
-                 <li class="item-del-menu"><a href="reservas.html">Reservas</a></li>
+                 <li class="item-del-menu"><a href="../promociones.html">Promociones</a></li>
+                 <li class="item-del-menu"><a href="../reservas.html">Reservas</a></li>
              </ul>
         </nav>
 
-        <img src="../img/letras_logo_png.png" alt="Piel Durazno Spa" class="letra-del-menu">
-        <img src="../img/logo_png.png" alt="Logo Piel Durazno Spa" class="logo-del-menu">
+        <img src="../../img/letras_logo_png.png" alt="Piel Durazno Spa" class="letra-del-menu">
+        <img src="../../img/logo_png.png" alt="Logo Piel Durazno Spa" class="logo-del-menu">
     </div>
 
     <button class="boton-cerrar boton-oculto" id="boton-cerrar">X</button>
+    
 
-
-    <section class="seccion-100 fade-in menu-mosaico">
-        <div class="caja-mosaico" id="spa1p">
-            <h4 class="titulo-caja-mosaico blanco upper family_sans bold sombra-texto">1 Persona</h4>
-            <p class="blanco font_08 sombra-texto">Spa para una sola persona</p>
-        </div>
-
-        <div class="caja-mosaico" id="spa2p">
-            <h4 class="titulo-caja-mosaico blanco upper family_sans bold sombra-texto
-            ">2 Personas</h4>
-            <p class="blanco font_08 sombra-texto">Spa para dos personas</p>
-        </div>
-
-        <div class="caja-mosaico" id="spaG">
-            <h4 class="titulo-caja-mosaico blanco upper family_sans bold
-            ">Spa Grupal</h4>
-            <p class="blanco font_08 sombra-texto">Spa para varias personas</p>
-        </div>
-
-        <div class="caja-mosaico" id="spaFami">
-            <h4 class="titulo-caja-mosaico blanco upper family_sans bold
-            ">Spa Familiar</h4>
-            <p class="blanco font_08 sombra-texto">Spa para mamá, papá e hij@</p>
+    <section class="seccion-100 fade-in margen-bajo">
+        <!-- copilot agrega un video aquí voy a agregar un video de forma local, por ruta relativa -->
+        <video class="video" controls>
+            <source src="multimedia/baby.mp4" type="video/mp4">
+        </video>
+        
+        <div class="botones-contenedor flex-horizontal">
+            <button class="boton-centrado boton-azul boton reserva" id="familiar">Reservar</button>
+            <button class="boton-centrado boton-azul boton" id="familiar">Planes</button>
         </div>
     </section>
 
-    
-    
+
     <div class="panel-whatsapp">
         <div class="pantalla-wp none" id="pantalla">
             <div class="encabezado-verde family-monospace">
@@ -96,7 +82,7 @@
         </div>
 
         <div class="imagen-wp">
-            <img src="../img/whatsapp.png" alt="WhatsApp" class="logo-wp" id="boton-wp">
+            <img src="../../img/whatsapp.png" alt="WhatsApp" class="logo-wp" id="boton-wp">
         </div>
     </div>
 
@@ -124,8 +110,8 @@
                 SEDES
             </h3>
             <ul>
-                <li><a href="sede_bucaramanga.html" class="blanco upper enlace-normal">Bucaramanga</a></li>
-                <li><a href="sede_bogota.html" class="blanco upper enlace-normal">Bogotá</a></li>
+                <li><a href="../sede_bucaramanga.html" class="blanco upper enlace-normal">Bucaramanga</a></li>
+                <li><a href="../sede_bogota.html" class="blanco upper enlace-normal">Bogotá</a></li>
             </ul>
         </div>
         <!-- ahora otro para los horarios -->
@@ -146,17 +132,18 @@
                 TU INTERES
             </h3>
             <ul>
-                <li><a href="promociones.html" class="blanco upper enlace-normal">Promociones</a></li>
-                <li><a href="reservas.html" class="blanco upper enlace-normal">Reservas</a></li>
+                <li><a href="../promociones.html" class="blanco upper enlace-normal">Promociones</a></li>
+                <li><a href="../reservas.html" class="blanco upper enlace-normal">Reservas</a></li>
             </ul>
         </div>
 
-        <img src="../img/logo_durazno_spa.png" class="logo-footer">
+        <img src="../../img/logo_durazno_spa.png" class="logo-footer">
     </footer>
 
-    <script src="../js/menu.js"></script>
-    <script src="../js/fade.js"></script>
-    <script src="../js/mosaico-rutas.js"></script>
-    <script src="../js/whatsapp.js"></script>
+    <script src="../../js/menu.js"></script>
+    <script src="../../js/fade.js"></script>
+    <script src="../../js/mosaico-rutas.js"></script>
+    <script src="servicios.js"></script>
+    <script src="../../js/whatsapp.js"></script>
 </body>
 </html>
