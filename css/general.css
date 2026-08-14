@@ -95,6 +95,10 @@ body {
 .durazno {
     color: #ffcfb2;
 }
+.rojiso {
+    color: #CC524D !important;
+
+}
 .amarillo-palido {
     /* pon un amarillo palido de color de letra */
     color: #b09811;
@@ -207,6 +211,14 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+.video-contenedor {
+    width: 90%;
+    margin: 0 auto;
+}
+.video-presentacion {
+    width: 100%;
+    
+}
 
 @media (min-width: 1024px) {
     .seccion {
@@ -219,5 +231,10 @@ body {
     }
     .enlace-boton {
         padding: 2%;
+    }
+    .video-presentacion {
+        width: 70%;
+        margin: 0 auto;
+        aspect-ratio: 16/ 9;
     }
 }
