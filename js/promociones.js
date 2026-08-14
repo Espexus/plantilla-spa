@@ -16,7 +16,7 @@
         mensajePromo = mensajesPromo[idpromo];
         mensaje = `*Hola,* buen día\n Estoy interesado en la promoción de ${mensajePromo}\n*¿Puedes darme más información?*`;
 
-        window.open(`https://wa.me/573212890180/?text=${encodeURIComponent(mensaje)}`, "_blank")
+        window.open(`https://wa.me/573225362536/?text=${encodeURIComponent(mensaje)}`, "_blank")
     }
 
 })();

@@ -16,7 +16,9 @@ mensajes = [
     "masajes",
     "Antiacné",
     "Reductores de medidas",
-    "Spa relante",
+    "Spa relajante para una persona",
+    "Spa relajante para dos personas",
+    "Spa relajante grupal",
     "Spa familiar para papá, mamá e hij@"
 ]
 ids = [
@@ -31,7 +33,9 @@ ids = [
     "masajes",
     "plasma",
     "reductores",
-    "estandar",
+    "estandar1",
+    "estandar2",
+    "estandarG",
     "familiar"
 ]
 
