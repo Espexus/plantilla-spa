@@ -47,6 +47,24 @@
         "premiumGrupal",
         "primaveraGrupal",
 
+        "relaxfami",
+        "veranofami",
+        "otonofami",
+        
+        "limpiezabasica1",
+        "limpiezabasica2",
+        "limpiezaoro1",
+        "limpiezaoro2",
+        "limpiezaantiacne1",
+        "limpiezaantiacne2",
+        "limpiezapremium1",
+        "limpiezapremium2",
+        
+        "esenciaagosto1",
+        "esenciaagosto2",
+        "facial2*1",
+        "diamante1agos",
+        "diamante2agos"
     ]
     
     const mensajes = [
@@ -95,6 +113,25 @@
         "Spa otoño grupal",
         "Spa premium grupal",
         "Spa primavera grupal",
+
+        "Spa familiar relax",
+        "Spa familiar verano",
+        "Spa familiar otoño",
+
+        "promo de limpieza facial basica para una persona",
+        "promo de limpieza facial basica para dos personas",
+        "promo de limpieza facial oro para una persona",
+        "promo de limpieza facial oro para dos personas",
+        "promo de limpieza facial antiacné para una persona",
+        "promo de limpieza facial antiacné para dos personas",
+        "promo de limpieza facial premium para una persona",
+        "promo de limpieza facial premium para dos personas",
+
+        "Spa esencia, promo de agosto para una persona",
+        "Spa esencia, promo de agosto para dos personas",
+        "Promo de agosto de facial 2*1",
+        "Promo de Spa diamante para una persona",
+        "Promo de Spa diamante para dos personas"
 
     ]
 
