@@ -148,7 +148,7 @@
 
         const mensaje = `*Hola,* buen día\nTengo mucho interés por su plan *${complemento}*\n¿Puedes darme más información?`
 
-        window.open(`https://wa.me/573225362536/?text=${encodeURIComponent(mensaje)}`, "_blank");
+        window.open(`https://wa.me/573127171110/?text=${encodeURIComponent(mensaje)}`, "_blank");
 
     }
 })()

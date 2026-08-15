@@ -16,7 +16,7 @@
 
         mensaje = `*Hola,* buen día\nDeseo agendar una reserva para el spa para uno de sus servicios ${tipo}, quiero acudir en la sede de ${sede} y deseo conocer si hay disponibilidad para la fecha: ${fecha}`
 
-        const url = `https://wa.me/573225362536?text=${encodeURIComponent(mensaje)}`;
+        const url = `https://wa.me/573127171110/?text=${encodeURIComponent(mensaje)}`;
         window.open(url, "_blank");
 
     })

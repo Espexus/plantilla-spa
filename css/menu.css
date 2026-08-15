@@ -1,3 +1,6 @@
+.banner-promociones a {
+    color: #CC524D !important;
+}
 
 /* estilos para mi menu */
 .boton-del-menu {
@@ -31,6 +34,7 @@
     box-sizing: border-box;
 }
 .letra-del-menu {
+    margin-top: 2%;
     width: 40%;
 }
 
@@ -41,7 +45,7 @@ nav {
     width: 70%;
     height: 100vh;
     z-index: 10;
-    background-color: white;
+    background-color: black;
     font-size: 1.1em;
     font-size: monospace;
 }
@@ -259,9 +263,9 @@ nav {
     }
     .item-del-menu img {
         margin-bottom: 0;
-        width: 40%;
+        width: 25%;
     }
-    .logo-del-menu {
+    .logo-del-menu, .letra-del-menu {
         display:none;
     }
     /* permitir que los <details> desplegados salgan del flujo sin romper el tamaño del menú */
@@ -271,7 +275,7 @@ nav {
     /* posicionar el contenido del details fuera del flujo del menú cuando esté abierto */
     .lista-del-menu details {
         position: relative;
-        background-color: white; /* conservar fondo del menú */
+        background-color: black; /* conservar fondo del menú */
     }
     .lista-del-menu details[open] > *:not(summary) {
         position: absolute;
@@ -281,7 +285,7 @@ nav {
         padding: 0 2%;
         box-sizing: border-box;
         z-index: 11;
-        background-color: white; /* conservar fondo del menú */
+        background-color: black; /* conservar fondo del menú */
         width: 100%;/* ajustar al contenido */
         /* background-color: white; /* conservar fondo del menú  */
     }

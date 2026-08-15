@@ -13,22 +13,22 @@
 
 /* fondos de las secciones */
 .seccion-plan-parejas {
-    background-image: url("../img/spa-pareja.jpg"); 
+    background-image: url("../img/spa-pareja.jpeg");
     background-size: cover;
     background-position: center;
 }
-.seccion-ninos {
-    background-image: url("../img/seccion-ninos.png");
+.seccion-bonos-regalo {
+    background-image: url("../img/bonos-regalo.png");
     background-size: cover;
     background-position: center;
 }
-.seccion-descuento {
-    background-image: url("../img/seccion-descuento.png");
+.seccion-promos {
+    background-image: url("../img/promociones_img.jpg");
     background-size: cover;
     background-position: center;
 }
-.seccion-sede {
-    background-image: url("../img/seccion-sedes.png");
+.seccion-familiar {
+    background-image: url("../img/spa-familiar-fondo.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -183,5 +183,15 @@
     .publicacion-instagram {
         width: 30%;
         margin: 2% 0;
+    }
+
+    .flex-horizontal-index {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .flex-horizontal-index section {
+        flex: 48% 0 0;
+        margin: 2% auto;   
     }
 }

@@ -6,9 +6,9 @@
             const clase= e.currentTarget.id;
 
             if (clase == "reservar-bogota"){
-                window.open("https://wa.me/573225362536")
+                window.open("https://wa.me/573127171110")
             } else if (clase == "reservar-bucaramanga") {
-                window.open("https://wa.me/573225362536")
+                window.open("https://wa.me/573127171110")
             }
         })
     })

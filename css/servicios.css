@@ -9,6 +9,8 @@
     margin-bottom: 8%;
 }
 .flex-horizontal {
+    width: 98%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -26,6 +28,15 @@
 .boton {
     flex: 0 0 45%;
     margin: 2% 0;
+}
+.imagen {
+    flex: 0 0 28%;
+}
+.imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 
