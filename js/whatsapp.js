@@ -25,4 +25,9 @@
         }
     }
 
+    const botonIg = document.getElementById("boton-ig");
+    botonIg.addEventListener("click", () => {
+        window.open("https://www.instagram.com/piel.duraznospa/")
+    })
+
 })();

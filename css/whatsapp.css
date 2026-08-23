@@ -28,7 +28,7 @@
 
 .pantalla-wp {
     position: fixed;
-    bottom: 15%;
+    bottom: 20%;
     right: 2%;
     width: 80%;
     background-image: url("../img/fondo-wp.jpg");
@@ -87,7 +87,7 @@
     }
     .pantalla-wp {
         width: 40%;
-        bottom: 20%;
+        bottom: 25%;
         right: 3%;
     }
     .boton-menu-wp {
