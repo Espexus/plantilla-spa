@@ -40,17 +40,17 @@ ids = [
 ]
 
 function comprobacion (e) {
-    if (e.target.classList.contains("reserva")) {
+    if (e.currentTarget.classList.contains("reserva")) {
         mensaje(e)
     }
     else {
-        ruta = e.target.id;
+        ruta = e.currentTarget.id;
         window.open(`../planes/${ruta}.html`)
     }
 }
 
 function mensaje (e){
-    textoId = e.target.id;
+    textoId = e.CurrentTarget.id;
     servicioIndice = ids.indexOf(textoId);
     servicio = mensajes[servicioIndice];
 

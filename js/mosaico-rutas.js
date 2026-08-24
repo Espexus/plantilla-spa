@@ -5,11 +5,8 @@
     })
 
     function redireccionar (e) {
-        let id = e.target.id
+        let id = e.currentTarget.id
 
-        if (id == "spaGk" || id == "spa1k" || id == "spa2k"){
-            id = "kids"
-        }
 
 
         const archivo = `${id}.html`

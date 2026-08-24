@@ -13,7 +13,7 @@
 
 /* fondos de las secciones */
 .seccion-plan-parejas {
-    background-image: url("../img/spa-pareja.jpeg");
+    background-image: url("../img/seccion-pareja.png");
     background-size: cover;
     background-position: center;
 }
@@ -28,7 +28,7 @@
     background-position: center;
 }
 .seccion-familiar {
-    background-image: url("../img/spa-familiar-fondo.jpg");
+    background-image: url("../img/seccion-familia.png");
     background-size: cover;
     background-position: center;
 }

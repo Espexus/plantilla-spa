@@ -1,6 +1,13 @@
 (function() {
 
     const idsReserva = [
+        "masaje1",
+        "masaje2",
+        "masaje3",
+        "masaje4",
+        "masaje5",
+        "masaje6",
+
         "gummy1",
         "lollypop1",
         "sweetcandy1",
@@ -68,6 +75,13 @@
     ]
     
     const mensajes = [
+        "Masaje cuello, hombros y espalda de 30 minutos",
+        "Masaje craneofacial y masaje posterior completo de 35 minutos",
+        "Masaje craneofacial especial y cuerpo completo de 40 minutos",
+        "Masaje shiatsu descontracturante con masajeador eléctrico de 50 minutos",
+        "Masaje craneofacial especial, cuerpo completo, drenaje linfático, reflexología podal y bambuterapia de 60 minutos",
+        "Masaje craneofacial especial, cuerpo completo, exfoliación corporal, chocolaterapia, bambuterapia y masajeador eléctrico de 60 minutos",
+
         "Spa kids gummy bears para 1 niño",
         "Spa kids Lolly pop para 1 niño",
         "Spa kids sweet candy para 1 niño",

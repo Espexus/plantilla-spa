@@ -11,7 +11,7 @@
     ]
 
     function enviar_mensaje (e) {
-        idpromo = promociones.indexOf(e.target.id);
+        idpromo = promociones.indexOf(e.currentTarget.id);
 
         mensajePromo = mensajesPromo[idpromo];
         mensaje = `*Hola,* buen día\n Estoy interesado en la promoción de ${mensajePromo}\n*¿Puedes darme más información?*`;
