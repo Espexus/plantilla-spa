@@ -66,12 +66,17 @@
         "limpiezaantiacne2",
         "limpiezapremium1",
         "limpiezapremium2",
+        "limpiezafacial2",
         
         "esenciaagosto1",
         "esenciaagosto2",
         "facial2*1",
         "diamante1agos",
-        "diamante2agos"
+        "diamante2agos",
+        "amorInfinito1",
+        "amorInfinito2",
+        "cupido1",
+        "cupido2"
     ]
     
     const mensajes = [
@@ -140,12 +145,17 @@
         "promo de limpieza facial antiacné para dos personas",
         "promo de limpieza facial premium para una persona",
         "promo de limpieza facial premium para dos personas",
+        "promo de San Valentín de limpieza fácial para dos personas",
 
         "Spa esencia, promo de agosto para una persona",
         "Spa esencia, promo de agosto para dos personas",
         "Promo de agosto de facial 2*1",
         "Promo de Spa diamante para una persona",
-        "Promo de Spa diamante para dos personas"
+        "Promo de Spa diamante para dos personas",
+        "Spa amor infinito para una persona",
+        "Spa amor infinito para dos personas",
+        "Spa Cupido para una persona",
+        "Spa Cupido para dos personas"
 
     ]
 
