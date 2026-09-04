@@ -3,16 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1461440239080715');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1461440239080715&ev=PageView&noscript=1" />
+    </noscript>
+
     <title>Sede Bogotá</title>
     <link rel="shortcut icon" href="../img/logo_durazno_spa.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/slider.css">
-    <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/deslizador-sede.css">
-    <link rel="stylesheet" href="../css/mapas.css">
-    <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/whatsapp.css">
+    <link rel="stylesheet" href="../css/footer.css?v=3">
+    <link rel="stylesheet" href="../css/slider.css?v=3">
+    <link rel="stylesheet" href="../css/menu.css?v=3">
+    <link rel="stylesheet" href="../css/deslizador-sede.css?v=3">
+    <link rel="stylesheet" href="../css/mapas.css?v=3">
+    <link rel="stylesheet" href="../css/general.css?v=3">
+    <link rel="stylesheet" href="../css/whatsapp.css?v=3">
 </head>
 <body id="body">
     <div class="banner-promociones font_08" id="banner-promociones">
@@ -57,12 +77,27 @@
     <button class="boton-cerrar boton-oculto" id="boton-cerrar">X</button>
 
     <section class="seccion-100 fondo-negro blanco fade-in">
-        <h1 class="titulo-mediano family-sans bold upper texto-centrado margin_bottom">Sede Bogotá</h1>
-        <p class="font_13 wid90-center texto-centrado">Esta es nuestra nueva sede, estamos ansiosos de atender y cuidar tu belleza, recuerda visitarnos pronto.</p>
-        
-        <video src="../img/videos/bogota2.mp4" controls preload="metadata" loading="lazy" class="video"></video>
-        
-        <button id="reservar-bogota" class="boton-azul boton-centrado boton margin-vertical">Contactar</button>
+        <h1 class="titulo-mediano family-sans bold upper texto-centrado margin_bottom">Sede Bucaramanga</h1>
+        <p class="font_13 wid90-center texto-centrado family-sans">Esta es nuestra sede Santandereana, estamos ansiosos de atender y cuidar tu belleza, recuerda visitarnos pronto.</p>
+
+        <div class="carrusel-sede">
+            <div class="carrusel-track">
+                <article class="carrusel-item">
+                    <video src="../img/videos/bogota2.mp4" muted autoplay loop playsinline preload="metadata" loading="lazy"></video>
+                </article>
+                <article class="carrusel-item">
+                    <img src="../img/bogotaimg1.jpeg" alt="">
+                </article>
+                <article class="carrusel-item">
+                    <img src="../img/bogotaimg2.jpeg" alt="">
+                </article>
+                <article class="carrusel-item">
+                    <img src="../img/bogotaimg3.jpeg" alt="">
+                </article>
+            </div>
+        </div>
+
+        <button id="reservar-bucaramanga" class="boton-azul boton-centrado boton margin-vertical">Contactar</button>
     </section>
 
 
@@ -143,11 +178,11 @@
         <img src="../img/logo_png.png" class="logo-footer">
     </footer>
     
-    <script src="../js/fade.js"></script>
-    <script src="../js/carrusel.js"></script>
-    <script src="../js/menu.js"></script>
-    <script src="../js/deslizador-sede.js"></script>
-    <script src="../js/whatsapp.js"></script>
-    <script src="../js/reservar-sedes.js"></script>
+    <script src="../js/fade.js?v=3"></script>
+    <script src="../js/carrusel.js?v=3"></script>
+    <script src="../js/menu.js?v=3"></script>
+    <script src="../js/deslizador-sede.js?v=3"></script>
+    <script src="../js/whatsapp.js?v=3"></script>
+    <script src="../js/reservar-sedes.js?v=3"></script>
 </body>
 </html>

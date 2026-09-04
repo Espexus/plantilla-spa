@@ -1,60 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/logo_durazno_spa.png" type="image/x-icon">
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1461440239080715');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1461440239080715&ev=PageView&noscript=1" />
+    </noscript>
+
+
     <title>Piel Durazno Spa</title>
-    
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/slider.css">
-    <link rel="stylesheet" href="css/index.css">   
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/whatsapp.css">
+
+    <link rel="stylesheet" href="css/footer.css?v=3">
+    <link rel="stylesheet" href="css/slider.css?v=3">
+    <link rel="stylesheet" href="css/index.css?v=3">
+    <link rel="stylesheet" href="css/menu.css?v=3">
+    <link rel="stylesheet" href="css/general.css?v=3">
+    <link rel="stylesheet" href="css/whatsapp.css?v=3">
 </head>
+
 <body id="body">
     <div class="banner-promociones font_08" id="banner-promociones">
-        <a href="html/promociones.html" class="enlace-normal negro">CLICK AQUÍ PARA CONOCER EL 2X1 EN LIMPIEZA FACIAL.</a>
+        <a href="html/promociones.html" class="enlace-normal negro">CLICK AQUÍ PARA CONOCER EL 2X1 EN LIMPIEZA
+            FACIAL.</a>
     </div>
     <!-- aquí tengo mi menú -->
     <div class="menu">
         <button class="boton-del-menu" id="boton-menu">☰</button>
 
         <nav class="menu-oculto" id="menu">
-             <!-- agrega un boton de estos de desplegar el menu tortuga copilot -->
-             <ul class="lista-del-menu" id="lista-del-menu">
+            <!-- agrega un boton de estos de desplegar el menu tortuga copilot -->
+            <ul class="lista-del-menu" id="lista-del-menu">
                 <li class="item-del-menu"><img src="img/logo_png.png" alt="logo"></li>
-                 <li class="item-del-menu"><a href="index.html">Inicio</a></li>
-                 <!-- a este planes vuelvelo una lista desplegable pero con details summary -->
-                  <!-- misma clase para otros li copilot -->
-                 <li class="item-del-menu">
-                     <details>
-                         <summary>Planes <span class="negrita">↴</span></summary>
-                         <ul>
-                             <li><a href="html/relajante.html">Spa Relajante</a></li>
-                             <li><a href="html/corporales.html">Corporales</a></li>
-                             <li><a href="html/spa_kids.html">Spa Kids</a></li>
-                             <li><a href="html/facial.html">Facial</a></li>
-                         </ul>
-                     </details>
-                 </li>
-                 <!-- desplegable de dos para sedes -->
-                 <li class="item-del-menu">
-                     <details>
-                         <!-- para este también -->
-                         <summary>Sedes <span class="negrita">↴</span></summary>
-                         <ul>
-                             <li><a href="html/sede_bucaramanga.html">Bucaramanga</a></li>
-                             <li><a href="html/sede_bogota.html">Bogotá</a></li>
-                         </ul>
-                     </details>
-                 </li>
-                 <li class="item-del-menu"><a href="html/promociones.html">Promociones</a></li>
-                 <!-- reservas -->
-                 <li class="item-del-menu"><a href="html/reservas.html">Reservas</a></li>
-             </ul>
-     
+                <li class="item-del-menu"><a href="index.html">Inicio</a></li>
+                <!-- a este planes vuelvelo una lista desplegable pero con details summary -->
+                <!-- misma clase para otros li copilot -->
+                <li class="item-del-menu">
+                    <details>
+                        <summary>Planes <span class="negrita">↴</span></summary>
+                        <ul>
+                            <li><a href="html/relajante.html">Spa Relajante</a></li>
+                            <li><a href="html/corporales.html">Corporales</a></li>
+                            <li><a href="html/spa_kids.html">Spa Kids</a></li>
+                            <li><a href="html/facial.html">Facial</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <!-- desplegable de dos para sedes -->
+                <li class="item-del-menu">
+                    <details>
+                        <!-- para este también -->
+                        <summary>Sedes <span class="negrita">↴</span></summary>
+                        <ul>
+                            <li><a href="html/sede_bucaramanga.html">Bucaramanga</a></li>
+                            <li><a href="html/sede_bogota.html">Bogotá</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li class="item-del-menu"><a href="html/promociones.html">Promociones</a></li>
+                <!-- reservas -->
+                <li class="item-del-menu"><a href="html/reservas.html">Reservas</a></li>
+            </ul>
+
         </nav>
 
         <img src="img/letras_logo_png.png" alt="Piel Durazno Spa" class="letra-del-menu">
@@ -64,41 +89,43 @@
     <!-- boton para cerrar el menu -->
     <button class="boton-cerrar boton-oculto" id="boton-cerrar">X</button>
 
+
     <section class="galeria-servicios seccion-100 fade-in">
+        <h1 class="titulo-seccion blanco">Piel durazno Spa</h1>
         <!-- Carrusel de fotos -->
         <div class="carrusel-contenedor">
             <!-- Slides -->
             <div class="carrusel-slides">
-                <div class="carrusel-slide" style="background-image: url('img/carrusel4.png')">
+                <div class="carrusel-slide" style="background-image: url('img/carrusel41.png')">
                     <div class="carrusel-contenido">
                         <h2 class="carrusel-titulo">Masajes</h2>
                         <p class="carrusel-subtitulo">EXPERIENCIA TERAPÉUTICA</p>
                     </div>
                 </div>
-                <div class="carrusel-slide active" style="background-image: url('img/carrusel1.png')">
+                <div class="carrusel-slide active" style="background-image: url('img/carrusel112.jpg')">
                     <div class="carrusel-contenido">
                         <h2 class="carrusel-titulo">Spa en pareja</h2>
                         <p class="carrusel-subtitulo">EXPERIENCIA DE RELAJACIÓN PARA DOS</p>
                     </div>
                 </div>
-                <div class="carrusel-slide active" style="background-image: url('img/carrusel5.jpeg')">
+                <div class="carrusel-slide active" style="background-image: url('img/carrusel52.jpeg')">
                     <div class="carrusel-contenido">
                         <h2 class="carrusel-titulo">Cuidado fácial</h2>
                         <p class="carrusel-subtitulo">CUIDADO ESPECIALIZADO PARA TU PIEL</p>
                     </div>
                 </div>
-                <div class="carrusel-slide" style="background-image: url('img/carrusel3.jpeg')">
+                <div class="carrusel-slide" style="background-image: url('img/carrusel31.png')">
                     <div class="carrusel-contenido">
                         <h2 class="carrusel-titulo">Diversión</h2>
                         <p class="carrusel-subtitulo">SPA PARA NIÑOS</p>
                     </div>
                 </div>
-                <div class="carrusel-slide" style="background-image: url('img/carrusel2.jpeg')">
+                <div class="carrusel-slide" style="background-image: url('img/carrusel21.jpeg')">
                     <div class="carrusel-contenido">
                         <h2 class="carrusel-titulo">Grupal</h2>
                         <p class="carrusel-subtitulo">PARA VENIR CON EL PARCHE</p>
                     </div>
-                </div>   
+                </div>
             </div>
 
             <!-- Botones de navegación -->
@@ -124,9 +151,11 @@
                 SPA EN PAREJA
             </h2>
             <p class="descripcion-seccion blanco">
-                Disfruta de una experiencia única en nuestro spa para parejas, donde el amor y el bienestar se fusionan en un ambiente relajante y romántico.
+                Disfruta de una experiencia única en nuestro spa para parejas, donde el amor y el bienestar se fusionan
+                en un ambiente relajante y romántico.
             </p>
-            <a href="html/servicios/spa2p.html" class="enlace-completo enlace-boton blanco fondo-amarillo">Reservar Ahora</a>
+            <a href="html/servicios/spa2p.html" class="enlace-completo enlace-boton blanco fondo-amarillo">Reservar
+                Ahora</a>
         </section>
 
         <!-- misma estructura de la seccion anterior ahora para una seccion de spa para niños, recuerda hacer una descripcion corta -->
@@ -135,7 +164,8 @@
                 BONOS DE REGALO
             </h2>
             <p class="descripcion-seccion blanco">
-                Consigue, regala o canjea tu increíble bono de regalo para vivir las diferentes experiencias disponibles en Piel Durazno Spa
+                Consigue, regala o canjea tu increíble bono de regalo para vivir las diferentes experiencias disponibles
+                en Piel Durazno Spa
             </p>
             <a href="html/bonos.html" class="enlace-completo enlace-boton blanco fondo-amarillo">Conocer más</a>
         </section>
@@ -147,7 +177,8 @@
             </h2>
             <p class="descripcion-seccion blanco">
                 <!-- esta descripcion debe ser sobre el descuento de primera vez -->
-                Este mes de agosto tenemos las mejores promociones para vivir experiencias únicas, económicas y variadas con nosotros.
+                Este mes de agosto tenemos las mejores promociones para vivir experiencias únicas, económicas y variadas
+                con nosotros.
             </p>
             <a href="promociones.html" class="enlace-completo enlace-boton blanco fondo-amarillo">Conocer ofertas</a>
         </section>
@@ -160,13 +191,14 @@
             <p class="descripcion-seccion blanco">
                 Este mes de agosto ven y disfruta con tu pareja y tus hijos de un momento único y de unión.
             </p>
-            <a href="html/planes/familiar.html" class="enlace-completo enlace-boton blanco fondo-amarillo">Conocer más</a>
+            <a href="html/planes/familiar.html" class="enlace-completo enlace-boton blanco fondo-amarillo">Conocer
+                más</a>
         </section>
 
 
     </section>
 
-    
+
     <!-- ahora acá una seccion ya independiente en estilo que sea un apartado para un video de youtube -->
     <section class="seccion seccion-video fondo-negro seccion-100 fade-in">
         <div class="video-contenedor">
@@ -174,7 +206,8 @@
                 <source src="img/video-presentacion.mp4" type="video/mp4">
                 Tu navegador no soporta la reproducción de videos.
             </video>
-        </div><P></P>
+        </div>
+        <P></P>
     </section>
 
 
@@ -187,7 +220,10 @@
             <img src="img/usuario.jpg" alt="Foto de Usuario" class="foto-usuario">
             <div class="contenido-resena">
                 <p class="nombre-usuario">Lorena Rojas</p>
-                <p class="texto-resena font_13">Excelente atención y ambiente muy relajante. El personal fue muy amable y profesional en todo momento. Los masajes y tratamientos se sienten de muy buena calidad, además el lugar es limpio, tranquilo y transmite mucha paz. Sin duda, una experiencia que dan ganas de repetir ✨</p>
+                <p class="texto-resena font_13">Excelente atención y ambiente muy relajante. El personal fue muy amable
+                    y profesional en todo momento. Los masajes y tratamientos se sienten de muy buena calidad, además el
+                    lugar es limpio, tranquilo y transmite mucha paz. Sin duda, una experiencia que dan ganas de repetir
+                    ✨</p>
                 <div class="estrellas">
                     <span class="estrella">★</span>
                     <span class="estrella">★</span>
@@ -201,7 +237,9 @@
             <img src="img/usuario.jpg" alt="Foto de Usuario" class="foto-usuario">
             <div class="contenido-resena">
                 <p class="nombre-usuario">Gabriela Velazco</p>
-                <p class="texto-resena font_13">Un lugar simplemente increíble, desde que entras sientes paz y sales renovada. Sin duda, el mejor lugar para desconectarte, relajarte y sentirte espectacular. ¡Lo recomiendo totalmente! Lo amoooo</p>
+                <p class="texto-resena font_13">Un lugar simplemente increíble, desde que entras sientes paz y sales
+                    renovada. Sin duda, el mejor lugar para desconectarte, relajarte y sentirte espectacular. ¡Lo
+                    recomiendo totalmente! Lo amoooo</p>
                 <div class="estrellas">
                     <span class="estrella">★</span>
                     <span class="estrella">★</span>
@@ -216,9 +254,9 @@
             <div class="contenido-resena">
                 <p class="nombre-usuario">Victoria Guerrero</p>
                 <p class="texto-resena font_13">Una experiencia espectacular
-                Un servicio excelente y el personal está muy bien capacitado, las instalaciones son muy bonitas.
-                Enamorada del lugar y el servicio 😍❤️
-                Super recomendado</p>
+                    Un servicio excelente y el personal está muy bien capacitado, las instalaciones son muy bonitas.
+                    Enamorada del lugar y el servicio 😍❤️
+                    Super recomendado</p>
                 <div class="estrellas">
                     <span class="estrella">★</span>
                     <span class="estrella">★</span>
@@ -243,7 +281,7 @@
         </div>
     </section> -->
 
-    
+
     <!-- <section class="galeria-fotos fade-in">
 
         <div class="carrusel-contenedor">
@@ -301,9 +339,9 @@
                     <h4 class="bold font_13">piel.duraznospa</h4>
 
                     <p class="font_08 family_sans">
-                    📍Floridablanca: Calle 32 26 62 cañaveral<br>
-                    📍Bogotá: Cra 51D bis 37b Sur 34 Muzu ospina perez.<br>
-                    📲 WhatsApp: 3127171110
+                        📍Floridablanca: Calle 32 26 62 cañaveral<br>
+                        📍Bogotá: Cra 51D bis 37b Sur 34 Muzu ospina perez.<br>
+                        📲 WhatsApp: 3127171110
                     </p>
                 </div>
             </div>
@@ -319,9 +357,11 @@
                 </a>
             </div>
             <!-- aquí puedes simular las publicaciones de instagram con imágenes y enlaces -->
-            
+
         </div>
-        <button id="boton-instagram" class="boton-azul blanco boton-centrado margin-vertical family_sans enlace-normal">Siguenos en Instagram</button>
+        <button id="boton-instagram"
+            class="boton-azul blanco boton-centrado margin-vertical family_sans enlace-normal">Siguenos en
+            Instagram</button>
     </section>
 
     <div class="panel-whatsapp">
@@ -330,7 +370,8 @@
                 <p class="blanco font_10">¿Tienes alguna pregunta o quieres reservar tu cita? ¡Contáctanos!</p>
             </div>
             <div class="contenido">
-                <a href="https://wa.me/573127171110" target="_blank" class="enlace-normal boton-menu-wp font_08">Enviar mensaje</a>
+                <a href="https://wa.me/573127171110" target="_blank" class="enlace-normal boton-menu-wp font_08">Enviar
+                    mensaje</a>
 
                 <a href="tel:3127171110" class="enlace-normal boton-menu-wp font_08">Llamar</a>
             </div>
@@ -351,7 +392,7 @@
                 <span class="amarillo-palido">Teléfonos:</span>
                 <a href="tel:3127171110" class="blanco upper enlace-normal">312 717 1110</a>
             </p>
-            
+
             <!-- ahora para whatsapp -->
             <p class="blanco upper lista-footer">
                 <span class="amarillo-palido">WhatsApp:</span>
@@ -394,10 +435,11 @@
         <img src="img/logo_png.png" class="logo-footer">
     </footer>
 
-    <script src="js/fade.js"></script>
-    <script src="js/carrusel.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="js/instagram.js"></script>
-    <script src="js/whatsapp.js"></script>
+    <script src="js/fade.js?v=3"></script>
+    <script src="js/carrusel.js?v=3"></script>
+    <script src="js/menu.js?v=3"></script>
+    <script src="js/instagram.js?v=3"></script>
+    <script src="js/whatsapp.js?v=3"></script>
 </body>
+
 </html>

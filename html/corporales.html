@@ -4,13 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/logo_durazno_spa.png" type="image/x-icon">
+
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1461440239080715');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1461440239080715&ev=PageView&noscript=1" />
+    </noscript>
+
     <title>Servicios corporales</title>
 
-    <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/whatsapp.css">
-    <link rel="stylesheet" href="../css/mosaico.css">
+    <link rel="stylesheet" href="../css/menu.css?v=3">
+    <link rel="stylesheet" href="../css/footer.css?v=3">
+    <link rel="stylesheet" href="../css/general.css?v=3">
+    <link rel="stylesheet" href="../css/whatsapp.css?v=3">
+    <link rel="stylesheet" href="../css/mosaico.css?v=3">
 </head>
 <body id="body">
     <div class="banner-promociones font_08" id="banner-promociones">
@@ -64,10 +84,6 @@
         <div class="caja-mosaico" id="levantamiento">
             <h4 class="titulo-caja-mosaico blanco upper family_sans bold sombra-texto">Levantamiento de glúteos</h4>
             <p class="blanco font_08 sombra-texto">Tratamiento para mejorar la forma y posición de los glúteos</p>
-        </div>
-        <div class="caja-mosaico" id="masajes">
-            <h4 class="titulo-caja-mosaico blanco upper family_sans bold sombra-texto">Masajes</h4>
-            <p class="blanco font_08 sombra-texto">Tratamiento relajante y terapéutico para el cuerpo</p>
         </div>
     </section>
 
@@ -143,9 +159,9 @@
         <img src="../img/logo_png.png" class="logo-footer">
     </footer>
     
-    <script src="../js/menu.js"></script>
-    <script src="../js/fade.js"></script>
-    <script src="../js/mosaico-rutas.js"></script>
-    <script src="../js/whatsapp.js"></script>
+    <script src="../js/menu.js?v=3"></script>
+    <script src="../js/fade.js?v=3"></script>
+    <script src="../js/mosaico-rutas.js?v=3"></script>
+    <script src="../js/whatsapp.js?v=3"></script>
 </body>
 </html>
