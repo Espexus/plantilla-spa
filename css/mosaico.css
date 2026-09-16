@@ -35,34 +35,34 @@
 
 /* partes de los fondos propios de cada menú */
 #spa1p {
-    background-image: url('../img/spa-una-persona-fondo.jpg');
+    background-image: url('../img/spa-una-persona-fondoc.jpg');
 }
 #spa2p {
-    background-image: url('../img/spa-pareja-fondo.jpg');
+    background-image: url('../img/spa-pareja-fondoc.jpg');
 }
 
 #kids1 {
-    background-image: url('../img/spa-nino-fondo1.jpg');
+    background-image: url('../img/spa-nino-fondo1c.jpg');
 }
 #kids2 {
-    background-image: url('../img/spa-2ninos-fondo1.jpeg');
+    background-image: url('../img/spa-2ninos-fondo1c.jpeg');
 }
 #kidsG {
-    background-image: url('../img/grupo-de-ninos-fondo1.jpeg');
+    background-image: url('../img/grupo-de-ninos-fondo1c.jpeg');
 }
 
 #spaG {
-    background-image: url('../img/spa-grupal-fondo.jpg');
+    background-image: url('../img/spa-grupal-fondoc.jpg');
 }
 #spaFami {
-    background-image: url('../img/spa-familiar-fondo.jpg');
+    background-image: url('../img/spa-familiar-fondoc.jpg');
 }
 
 #limpieza {
-    background-image: url('../img/limpieza-facial.jpg');
+    background-image: url('../img/limpieza-facialc.jpg');
 }
 #antimanchas {
-    background-image: url('../img/dermapen.jpg');
+    background-image: url('../img/dermapenc.jpg');
 }
 #antiacne {
     background-image: url('../img/plasma.jpg');

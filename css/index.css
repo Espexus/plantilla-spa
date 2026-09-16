@@ -13,22 +13,22 @@
 
 /* fondos de las secciones */
 .seccion-plan-parejas {
-    background-image: url("../img/seccion-pareja1.png");
+    background-image: url("../img/seccion-pareja1c.png");
     background-size: cover;
     background-position: center;
 }
 .seccion-bonos-regalo {
-    background-image: url("../img/bonos-regalo3.png");
+    background-image: url("../img/bonos-regalo3c.png");
     background-size: cover;
     background-position: center;
 }
 .seccion-promos {
-    background-image: url("../img/promociones_img.jpg");
+    background-image: url("../img/promociones_imgc.png");
     background-size: cover;
     background-position: center;
 }
 .seccion-familiar {
-    background-image: url("../img/seccion-familia1.png");
+    background-image: url("../img/seccion-familia1c.png");
     background-size: cover;
     background-position: center;
 }
