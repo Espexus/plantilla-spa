@@ -65,30 +65,30 @@
     background-image: url('../img/dermapenc.jpg');
 }
 #antiacne {
-    background-image: url('../img/plasma.jpg');
+    background-image: url('../img/plasmac.jpg');
 }
 #hidratacion {
-    background-image: url('../img/esperma-salmon.jpg');
+    background-image: url('../img/esperma-salmonc.jpg');
 }
 
 #botox {
-    background-image: url('../img/botox.jpg');
+    background-image: url('../img/botoxc.jpg');
 }
 #baby {
-    background-image: url('../img/baby-botox.jpg');
+    background-image: url('../img/baby-botoxc.jpg');
 }
 #fixer {
-    background-image: url('../img/fixer.jpg');
+    background-image: url('../img/fixerc.jpg');
 }
 
 #reductores {
-    background-image: url('../img/reductores.jpg');
+    background-image: url('../img/reductoresc.jpg');
 }
 #levantamiento {
-    background-image: url('../img/levantamiento-gluteos.jpg');
+    background-image: url('../img/levantamiento-gluteosc.jpg');
 }
 #masajes {
-    background-image: url('../img/masajes.jpg');
+    background-image: url('../img/masajesc.jpg');
 }
 
 @media (min-width: 1024px) {
